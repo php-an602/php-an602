@@ -10,7 +10,7 @@ PHP-AN602 - Advanced Content Management System
 
 - **User:** All users have their own customisable profile (including name, profile picture, cover photo and personal information) and can follow and interact with each other. If wished and enabled, users can create own content, comment posts and join Rooms. Profile fields, permissions and all settings can be defined individually by the network operator (administrator).
 
-- **Spaces:** Rooms or groups for any projects, departments, events or other needs. Network operators can create as many Spaces as needed and automatically map users into the desired Spaces. PHP-AN602 comes with an advanced permission and notification system (including email summaries).
+- **Rooms:** Rooms or groups for any projects, departments, events or other needs. Network operators can create as many Spaces as needed and automatically map users into the desired Spaces. PHP-AN602 comes with an advanced permission and notification system (including email summaries).
 
 - **Content:** Users can create content of all kinds (posts, wiki pages, photo/video, schedule appointments, create events or tasks) depending on their permission and share it with other members in their Space. There is a multi-level comment function, versatile collaboration options and also features to report inappropriate posts and content. All Content, Spaces and Members can be easily found through various and individually definable filter and search functions, Content can be edited, deleted and archived.
 
