@@ -22,8 +22,8 @@ The software is responsive designed and works great on different devices, includ
 
 More information about PHP-AN602 can be found here:
 
--	[Homepage & Demo](http://www.phpan602.86it.us/)
--	[Documentation & Class Reference](http://docs.www.phpan602.86it.us/)
--	[Community](http://community.www.phpan602.86it.us/)
--	[Licence](https://www.phpan602.86it.us/licences)
+-	[Homepage & Demo](http://www.an602.86it.us/)
+-	[Documentation & Class Reference](http://docs.www.an602.86it.us/)
+-	[Community](http://community.www.an602.86it.us/)
+-	[Licence](https://www.an602.86it.us/licences)
 
