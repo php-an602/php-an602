@@ -20,10 +20,10 @@ PHP-AN602 - Advanced Content Management System
 
 The software is responsive designed and works great on different devices, including smartphones and tablets. **PHP-AN602 is available in over 30 languages and is used in over 4,500 organizations worldwide.**
 
-More information about HumHub can be found here:
+More information about PHP-AN602 can be found here:
 
--	[Homepage & Demo](http://www.phpan602.coders.exchange/)
--	[Documentation & Class Reference](http://docs.phpan602.coders.exchange/)
--	[Community](http://community.phpan602.coders.exchange/)
--	[Licence](https://www.phpan602.coders.exchange/licences)
+-	[Homepage & Demo](http://www.phpan602.86it.us/)
+-	[Documentation & Class Reference](http://docs.www.phpan602.86it.us/)
+-	[Community](http://community.www.phpan602.86it.us/)
+-	[Licence](https://www.phpan602.86it.us/licences)
 
