@@ -1,4 +1,4 @@
-PHP-AN602 - An Advanced Content Management System
+PHP-AN602 - Advanced Content Management System
 ===========================
 
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
