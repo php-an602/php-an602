@@ -4,6 +4,8 @@ PHP-AN602 - Advanced Content Management System
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
 [![CLA assistant](https://cla-assistant.io/readme/badge/php-an602/php-an602)](https://cla-assistant.io/php-an602/php-an602)
 
+## Developer Worspace provided by The 86it Developers Network
+
 #### **PHP-AN602 is an intuitive easy to use modular designed open-source software**, used primarily as a social network, knowledge database, intranet or information and communication platform.
 
 **The software is written in PHP** and is best described by dividing into 4 main parts: **User, Spaces, Content and Modules.**
@@ -20,10 +22,10 @@ PHP-AN602 - Advanced Content Management System
 
 The software is responsive designed and works great on different devices, including smartphones and tablets. **PHP-AN602 is available in over 30 languages and is used in over 4,500 organizations worldwide.**
 
-More information about PHP-AN602 can be found here:
+More information about HumHub can be found here:
 
--	[Homepage & Demo](http://www.phpan602.86it.us/)
--	[Documentation & Class Reference](http://docs.www.phpan602.86it.us/)
--	[Community](http://community.www.phpan602.86it.us/)
--	[Licence](https://www.phpan602.86it.us/licences)
+-	[Homepage & Demo](http://www.phpan602.coders.exchange/)
+-	[Documentation & Class Reference](http://docs.phpan602.coders.exchange/)
+-	[Community](http://community.phpan602.coders.exchange/)
+-	[Licence](https://www.phpan602.coders.exchange/licences)
 
