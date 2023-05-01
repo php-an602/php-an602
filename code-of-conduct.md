@@ -1,4 +1,4 @@
-Yii Contributor Code of Conduct
+PHP-AN602 Contributor Code of Conduct
 =======================
 
 ## Our Pledge
