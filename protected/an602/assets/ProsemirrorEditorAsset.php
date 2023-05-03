@@ -15,7 +15,7 @@ class ProsemirrorEditorAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@npm/an602-prosemirror-richtext/dist/';
+    public $sourcePath = '@npm/humhub-prosemirror-richtext/dist/';
 
     /**
      * @inheritdoc
