@@ -99,7 +99,7 @@ use yii\helpers\Html;
  * File upload support.
  *
  * @author Julian Harrer <julian.harrer@an602.com>
- * @see https://github.com/php-an602/php-an602-prosemirror for more information about the prosemirror-richtext client implementation
+ * @see https://github.com/humhub/humhub-prosemirror for more information about the prosemirror-richtext client implementation
  * @see https://prosemirror.net/docs/ Prosemirror documentation
  * @see https://github.com/markdown-it/markdown-it markdown-it repository
  * @since 1.3
