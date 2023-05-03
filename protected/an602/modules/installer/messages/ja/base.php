@@ -8,7 +8,7 @@ return array (
   '<strong>Pretty URLs</strong> configuration' => '<strong>Pretty URL</strong> の構成',
   '<strong>Scheduled jobs</strong>' => '<strong>スケジュールされたジョブ</strong>',
   '<strong>System</strong> Check' => '<strong>必須要件</strong> を確認します',
-  '<strong>Welcome</strong> to An602<br>Your Social Network Toolbox' => '<strong>ようこそ！</strong> An602へ<br>あなたのSNSツールです',
+  '<strong>Welcome</strong> to PHP-AN602<br>Your <strong>C</strong>oders<strong>E</strong>xchange Network ToolBox' => '<strong>ようこそ！</strong> An602へ<br>あなたのSNSツールです',
   'Add following the lines to the crontab:' => '次の行を crontab に追加します：',
   'Allow access for non-registered users to public content (guest access)' => 'ユーザー登録していない人でも公開コンテンツにアクセスできる（ゲストアクセス）',
   'Allow friendships between members' => 'メンバー間のフレンドシップ機能を有効にする',
@@ -61,7 +61,7 @@ return array (
   'This overview shows all system requirements of An602.' => '下記はAn602の全ての必須要件です。',
   'This topic is covered in more detail in our <a href="{link}" target="_blank">documentation</a>. If you have trouble setting up the job scheduling described in the documentation, please contact your server administrator for support.' => 'このトピックについては、<a href="{link}">ドキュメント</a>で詳しく説明しています。
 ドキュメントに記載されているジョブスケジューリングの設定に問題がある場合は、サーバー管理者にサポートを依頼してください。',
-  'This wizard will install and configure your own An602 instance.<br><br>To continue, click Next.' => 'このウィザードでAn602のインストールと初期設定をします。<br><br>続けるには「次」をクリックしてください。',
+  'This wizard will install and configure your personal PHP-AN602 <strong>C</strong>oders<strong>E</strong>xchange node.<br><br>To continue, click Next.' => 'このウィザードでAn602のインストールと初期設定をします。<br><br>続けるには「次」をクリックしてください。',
   'To avoid a blank dashboard after your initial login, An602 can install example contents for you. Those will give you a nice general view of how An602 works. You can always delete the individual contents.' => 'An602にサンプルコンテンツもインストールしますか？インストールすればAn602の理解に役立ちます。サンプルコンテンツは後から削除できます。',
   'To simplify the configuration, we have predefined setups for the most common use cases with different options for modules and settings. You can adjust them during the next step.' => 'かんたん設定を選ぶと、一般的な設定をあらかじめ選択した状態にします。次のステップでは、選択した設定を実際に有効にするか選べます。',
   'Username' => 'ユーザー名',

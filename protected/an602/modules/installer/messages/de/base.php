@@ -8,7 +8,7 @@ return array (
   '<strong>Pretty URLs</strong> configuration' => '<strong>Pretty URLs</strong> Konfiguration',
   '<strong>Scheduled jobs</strong>' => '<strong>Scheduled jobs</strong>',
   '<strong>System</strong> Check' => '<strong>System</strong> Check',
-  '<strong>Welcome</strong> to An602<br>Your Social Network Toolbox' => '<strong>Willkommen</strong> bei An602.<br>
+  '<strong>Welcome</strong> to PHP-AN602<br>Your <strong>C</strong>oders<strong>E</strong>xchange Network ToolBox' => '<strong>Willkommen</strong> bei An602.<br>
 Deinem Sozialen Netzwerk.',
   'Add following the lines to the crontab:' => 'Füge die folgenden Zeilen in die crontab ein:',
   'Allow access for non-registered users to public content (guest access)' => 'Erlaube Zugriff auf öffentliche Inhalte für nicht registrierte Benutzer  (Gastzugriff)',
@@ -60,7 +60,7 @@ Deinem Sozialen Netzwerk.',
   'The name of the database you want to run An602 in.' => 'Name der Datenbank, die von An602 genutzt werden soll.',
   'This overview shows all system requirements of An602.' => 'Diese Übersicht zeigt alle Systemvoraussetzungen von An602.',
   'This topic is covered in more detail in our <a href="{link}" target="_blank">documentation</a>. If you have trouble setting up the job scheduling described in the documentation, please contact your server administrator for support.' => 'Dieses Thema wird in unserer <a href="{link}">Dokumentation</a> ausführlicher behandelt. Wenn Probleme beim Einrichten der in der Dokumentation beschriebenen Auftragsplanung auftreten, wende dich bitte an deinen Serveradministrator.',
-  'This wizard will install and configure your own An602 instance.<br><br>To continue, click Next.' => 'Dieser Assistent installiert und konfiguriert deine eigene An602-Instanz. <br /><br />Um fortzufahren, klicke auf Weiter.',
+  'This wizard will install and configure your personal PHP-AN602 <strong>C</strong>oders<strong>E</strong>xchange node.<br><br>To continue, click Next.' => 'Dieser Assistent installiert und konfiguriert deine eigene An602-Instanz. <br /><br />Um fortzufahren, klicke auf Weiter.',
   'To avoid a blank dashboard after your initial login, An602 can install example contents for you. Those will give you a nice general view of how An602 works. You can always delete the individual contents.' => 'Um ein leeres Dashboard nach der ersten Anmeldung zu vermeiden, kann An602 Beispielinhalte für dich installieren. Diese geben dir einen guten Überblick darüber, wie An602 funktioniert. Du kannst die einzelnen Inhalte jederzeit löschen.',
   'To simplify the configuration, we have predefined setups for the most common use cases with different options for modules and settings. You can adjust them during the next step.' => 'Um die Konfiguration zu vereinfachen, haben wir für die gängigsten Anwendungsfälle vordefinierte Setups mit verschiedenen Optionen für Module und Einstellungen. Du kannst sie im nächsten Schritt anpassen.',
   'Username' => 'Benutzername',
