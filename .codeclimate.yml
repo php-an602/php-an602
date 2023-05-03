@@ -1,32 +1,21 @@
-engines:
-  duplication:
-    enabled: true
-    config:
-      languages:
-      - javascript
-      - php
-  eslint:
-    enabled: true
-  fixme:
-    enabled: true
-  phpmd:
-    enabled: true
-    config:
-      rulesets: "codesize,design,unusedcode,tests/data/codeclimate/phpmd_ruleset.xml"
-ratings:
-  paths:
-  - "**.js"
-  - "**.php"
-exclude_paths:
-- tests/
-- build/
-- docs/
-- framework/messages/
-
-checks:
-  file-lines:
-    enabled: false
-  method-count:
-    enabled: false
-  method-lines:
-    enabled: false
+version: '2'
+plugins:
+    duplication:
+        enabled: true
+        config:
+            languages: [php]
+    phpcodesniffer:
+        enabled: true
+        config:
+            standard: phpcs.xml.dist
+exclude_patterns:
+    - '**/messages/'
+    - 'config/'
+    - '**/node_modules/'
+    - '**/test/'
+    - '**/tests/'
+    - '**/vendor/'
+    - '**/*_test.go'
+    - '**/*.d.ts'
+    - 'static/assets/'
+    - 'assets/'
