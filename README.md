@@ -6,7 +6,7 @@ PHP-AN602 - Advanced Content Management System
 
 ## Developer Worspace provided by The 86it Developers Network
 
-#### **PHP-AN602 is an intuitive easy to use modular designed open-source software**, used primarily as a social network, knowledge database, intranet or information and communication platform.
+#### **PHP-AN602 is an intuitive easy to use modular designed open-source software**, used primarily as CMS that connects users to the 86it Developers Network, knowledge database, intranet or information and communication platform.
 
 **The software is written in PHP** and is best described by dividing into 4 main parts: **User, Spaces, Content and Modules.**
 
