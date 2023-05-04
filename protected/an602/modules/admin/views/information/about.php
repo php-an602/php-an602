@@ -34,6 +34,6 @@ use yii\helpers\Html;
 <?php endif; ?>
 
 <hr>
-© <?= date("Y") ?> PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+© <?= date("Y") ?> PHP-AN602, The 86it Developers Network, Yii, and H u m H u b GmbH & Co. KG
 &middot;
 <?= Html::a(Yii::t('AdminModule.information', 'Licences'), "https://www.an602.org/licences", ['target' => '_blank']); ?>
