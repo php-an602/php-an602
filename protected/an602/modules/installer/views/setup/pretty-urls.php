@@ -11,9 +11,9 @@ use yii\helpers\Url;
     </div>
 
     <div class="panel-body">
-        <p><?= Yii::t('InstallerModule.base', 'Per default, the An602 URL includes an <code>index.php</code> file in the address, resulting in a URL that looks like "<a>https://example.com/index.php?r=dashboard%2Fdashboard</a>" for example. By using the Pretty URL or URL Rewriting feature, it is possible to create shorter and easier to understand URLs, such as "<a>https://example.com/dashboard</a>".'); ?></p>
-        <p><?= Yii::t('InstallerModule.base', 'In order to activate this feature, it is necessary to edit the An602 configuration and, potentially, the configuration of the WebServer.'); ?></p>
-        <p><?= Yii::t('InstallerModule.base', 'On An602\'s side, you will need to edit the configuration file <code>{configFile}</code> and add the following block:', ['{configFile}' => Yii::getAlias('@config/common.php')]); ?></p>
+        <p><?= Yii::t('InstallerModule.base', 'Per default, the an602 URL includes an <code>index.php</code> file in the address, resulting in a URL that looks like "<a>https://example.com/index.php?r=dashboard%2Fdashboard</a>" for example. By using the Pretty URL or URL Rewriting feature, it is possible to create shorter and easier to understand URLs, such as "<a>https://example.com/dashboard</a>".'); ?></p>
+        <p><?= Yii::t('InstallerModule.base', 'In order to activate this feature, it is necessary to edit the an602 configuration and, potentially, the configuration of the WebServer.'); ?></p>
+        <p><?= Yii::t('InstallerModule.base', 'On an602\'s side, you will need to edit the configuration file <code>{configFile}</code> and add the following block:', ['{configFile}' => Yii::getAlias('@config/common.php')]); ?></p>
 
         <kbd style="display: block; padding: 0.75rem 1rem;">
             <div>

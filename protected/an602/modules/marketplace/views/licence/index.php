@@ -34,7 +34,7 @@ use yii\widgets\ActiveForm;
         <p>
             <?= Yii::t('MarketplaceModule.base',
                 'No license key? Find out more about the {pro} or contact us.',
-                ['pro' => Html::a('Professional Edition', 'https://www.php-an602.coders.exchange',
+                ['pro' => Html::a('Professional Edition', 'https://www.an602.com',
                     ['target' => '_blank', 'style' => 'text-decoration:underline'])]
             ); ?></p>
         <hr>

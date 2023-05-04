@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2023 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2023 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\user\services;
@@ -61,7 +61,7 @@ class AuthClientService
 
 
     /**
-     * Updates (or creates) a user in An602 using AuthClients Attributes
+     * Updates (or creates) a user in an602 using AuthClients Attributes
      * This method will be called after login or by cron sync.
      *
      * @param User $user
@@ -95,7 +95,6 @@ class AuthClientService
             }
 
             if (count($user->getDirtyAttributes()) !== 0 && !$user->save()) {
-
                 Yii::warning('Could not update user (' . $user->id . '). Error: '
                     . VarDumper::dumpAsString($user->getErrors()), 'user');
 
@@ -129,10 +128,16 @@ class AuthClientService
         }
 
         // remove potentially unsafe attributes
-        unset($attributes['id'], $attributes['guid'], $attributes['contentcontainer_id'],
-            $attributes['auth_mode'], $attributes['status']);
+        unset(
+            $attributes['id'],
+            $attributes['guid'],
+            $attributes['contentcontainer_id'],
+            $attributes['auth_mode'],
+            $attributes['status']
+        );
 
         $attributes['username'] = AuthHelper::generateUsernameByAttributes($attributes);
+
         $registration->getUser()->setAttributes($attributes, false);
         $registration->getProfile()->setAttributes($attributes, false);
         $registration->getGroupUser()->setAttributes($attributes, false);
@@ -147,7 +152,7 @@ class AuthClientService
      */
     public function createUser(): ?User
     {
-        $registration = static::createRegistration($this->authClient);
+        $registration = static::createRegistration();
         if ($registration !== null && $registration->validate() && $registration->register($this->authClient)) {
             return $registration->getUser();
         }

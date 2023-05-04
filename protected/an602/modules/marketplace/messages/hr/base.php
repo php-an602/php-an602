@@ -25,7 +25,7 @@ Module successfully enabled!
     'Could not update licence. Error: ' => 'Nije moguće ažurirati licencu. Pogreška:',
     'Download of module failed!' => 'Preuzimanje modula nije uspjelo!',
     'Edit licence' => 'Uredi licencu',
-    'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => 'Ako je ovaj modul dodatno označen kao <strong>"Zajednica" </strong> projektni tim An602 niti ga testira niti nadgleda.',
+    'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => 'Ako je ovaj modul dodatno označen kao <strong>"Zajednica" </strong> projektni tim an602 niti ga testira niti nadgleda.',
     'Install' => 'Instaliraj',
     'Installed' => 'Instalirano',
     'Installing module...' => 'Instaliram modul...',
@@ -53,7 +53,7 @@ Module successfully enabled!
     'Remove licence key' => 'Uklonite ključ licence',
     'Save and update' => 'Spremi i ažuriraj',
     'Tags' => 'Tagovi',
-    'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'Projekt An602 ne jamči funkcionalnost, kvalitetu ili kontinuirani razvoj ovog modula.',
+    'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'Projekt an602 ne jamči funkcionalnost, kvalitetu ili kontinuirani razvoj ovog modula.',
     'Third-party' => 'Treća strana',
     'Third-party Modules are not covered by Professional Edition agreements.' => 'Moduli treće strane nisu obuhvaćeni sporazumima Professional Edition.',
     'Third-party disclaimer' => 'Odricanje treće strane',
@@ -75,13 +75,13 @@ The license was successfully activated!
 The license was successfully removed!
 
 ' => '',
-    'A new update is available (An602 %version%)!' => '',
+    'A new update is available (an602 %version%)!' => '',
     'Add Licence Key' => '',
     'Available Updates' => '',
     'Categories' => '',
     'Changelog' => '',
     'Community' => '',
-    'Could not connect to An602 API!
+    'Could not connect to an602 API!
 ' => '',
     'Featured' => '',
     'Invalid module licence key!
@@ -98,5 +98,5 @@ The license was successfully removed!
     'Professional Edition' => '',
     'Stop updating' => '',
     'Update all' => '',
-    'Your An602 installation is up to date!' => '',
+    'Your an602 installation is up to date!' => '',
 ];

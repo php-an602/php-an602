@@ -4,7 +4,7 @@ return array (
   'Notify from {appName}. You were added to the group.' => 'በ{appName} ጥቆማ ቡድኑ ውስጥ ተካተዋል።',
   'Notify from {appName}. You were removed from the group.' => 'በ{appName}. ጥቆማ ከቡድኑ ተወግደዋል።',
   'Receive Notifications for administrative events like available updates.' => 'እንደአዳዲስ ማዘመኛዎች ያሉ ለአስተዳደራዊ አጋጣሚዎች ማስታወቂያዎች ይደርስዎታል።',
-  'There is a new An602 Version ({version}) available.' => 'አዲስ An602 እትም Version ({version}) ይገኛል።',
+  'There is a new an602 Version ({version}) available.' => 'አዲስ an602 እትም Version ({version}) ይገኛል።',
   '{displayName} added you to group {groupName}' => '{displayName} በ{groupName} ቡድን ውስጥ አካተዎታል።',
   '{displayName} removed you from group {groupName}' => '{displayName} ከ{groupName} ቡድን አስወግድዎታል።',
 );

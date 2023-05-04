@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\assets;
@@ -11,7 +11,7 @@ namespace an602\assets;
 use an602\components\assets\AssetBundle;
 
 /**
- * Fixes https://github.com/php-an602/php-an602/issues/4638 by aligning jui and icu month short names
+ * Fixes https://github.com/an602/an602/issues/4638 by aligning jui and icu month short names
  *
  * @author buddha
  * @since 1.7.1

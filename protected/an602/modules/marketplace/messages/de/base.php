@@ -27,7 +27,7 @@ The license was successfully removed!
 
 ' => '--- Modul aktivieren: {moduleId} ---',
   '<strong>Activate</strong> your Professional Edition' => '<strong>Aktiviere</strong> deine Professional Edition',
-  'A new update is available (An602 %version%)!' => 'Ein neues Update ist verfügbar (An602 %version%)!',
+  'A new update is available (an602 %version%)!' => 'Ein neues Update ist verfügbar (an602 %version%)!',
   'Add Licence Key' => 'Lizenz hinzufügen',
   'Add purchased module by licence key' => 'Erworbenes Modul per Lizenschlüssel hinzufügen',
   'All' => 'Alle',
@@ -38,8 +38,8 @@ The license was successfully removed!
   'Categories' => 'Kategorien',
   'Changelog' => 'Änderungsprotokoll',
   'Community' => 'Community',
-  'Could not connect to An602 API!
-' => 'Konnte keine Verbindung zur An602 API herstellen!',
+  'Could not connect to an602 API!
+' => 'Konnte keine Verbindung zur an602 API herstellen!',
   'Could not connect to licence server!' => 'Verbindung zu Lizenzserver ist nicht möglich!',
   'Could not extract module!' => 'Konnte Modul nicht entpacken!',
   'Could not remove old module path!' => 'Alter Module-Pfad kann nicht gelöscht werden!',
@@ -47,7 +47,7 @@ The license was successfully removed!
   'Download of module failed!' => 'Herunterladen des Moduls fehlgeschlagen!!',
   'Edit licence' => 'Lizenz bearbeiten',
   'Featured' => 'Empfohlen',
-  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => 'Falls das Modul zusätzlich mit <strong>"Community"</strong> markiert ist, wird es vom An602 Projekt Team nicht getestet oder überwacht.',
+  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => 'Falls das Modul zusätzlich mit <strong>"Community"</strong> markiert ist, wird es vom an602 Projekt Team nicht getestet oder überwacht.',
   'Install' => 'Installieren',
   'Installed' => 'Installiert',
   'Installing module...' => 'Installiere Modul ...',
@@ -88,7 +88,7 @@ The license was successfully removed!
   'Save and update' => 'Speichern und aktualisieren',
   'Stop updating' => 'Update unterbrechen',
   'Tags' => 'Tags',
-  'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'Das An602 Projekt kann nicht für die Funktionalität, Qualität oder Weiterentwicklung des Moduls garantieren.',
+  'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'Das an602 Projekt kann nicht für die Funktionalität, Qualität oder Weiterentwicklung des Moduls garantieren.',
   'Third-party' => 'Drittanbieter',
   'Third-party Modules are not covered by Professional Edition agreements.' => 'Drittanbieter Module sind nicht in die Professional Edition Vereinbarungen inbegriffen.',
   'Third-party disclaimer' => 'Haftungsausschluss von Drittanbietern',
@@ -97,5 +97,5 @@ The license was successfully removed!
   'Update all' => 'Alle aktualisieren',
   'Upgrade to Professional Edition' => 'Auf Professional Edition umsteigen',
   'Version:' => 'Version:',
-  'Your An602 installation is up to date!' => 'Deine An602 Installation ist auf dem neuesten Stand.',
+  'Your an602 installation is up to date!' => 'Deine an602 Installation ist auf dem neuesten Stand.',
 );

@@ -9,9 +9,9 @@ use an602\modules\post\models\Post;
 use an602\modules\space\models\Space;
 use an602\modules\user\models\Mentioning;
 use an602\modules\user\notifications\Mentioned;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class MentionTest extends An602DbTestCase
+class MentionTest extends an602DbTestCase
 {
 
     /**

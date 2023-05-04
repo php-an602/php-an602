@@ -3,12 +3,12 @@
 namespace tests\codeception\unit\modules\space;
 
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\modules\space\models\Space;
 use an602\modules\user\models\Follow;
 
-class SpaceFollowTest extends An602DbTestCase
+class SpaceFollowTest extends an602DbTestCase
 {
 
     use Specify;

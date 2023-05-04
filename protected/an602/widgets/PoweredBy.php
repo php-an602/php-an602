@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\widgets;
@@ -42,7 +42,7 @@ class PoweredBy extends Widget
         }
 
         if ($this->textOnly) {
-            return Yii::t('base', 'Powered by {name}', ['name' => 'An602 (https://an602.org)']);
+            return Yii::t('base', 'Powered by {name}', ['name' => 'an602 (https://an602.org)']);
         }
 
         if (!isset($this->linkOptions['target'])) {
@@ -50,7 +50,7 @@ class PoweredBy extends Widget
         }
 
         return Yii::t('base', 'Powered by {name}', [
-            'name' => Html::a('An602', 'https://an602.org', $this->linkOptions)
+            'name' => Html::a('an602', 'https://an602.org', $this->linkOptions)
         ]);
     }
 

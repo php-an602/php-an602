@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\assets;
@@ -21,8 +21,8 @@ use yii\web\YiiAsset;
 use yii\widgets\ActiveFormAsset;
 
 /**
- * AppAsset includes PHP-AN602 core assets to the main layout.
- * This Assetbundle includes some core dependencies and the PHP-AN602 core api.
+ * AppAsset includes an602 core assets to the main layout.
+ * This Assetbundle includes some core dependencies and the an602 core api.
  *
  * Note: All CSS/JS files will be compressed and bundled. If you need dynamic
  * css/js loading e.g. based on users locale: see AppDynamicAsset
@@ -80,7 +80,7 @@ class AppAsset extends WebStaticAssetBundle
 
 
         /**
-         * Core PHP-AN602 API + commonly required modules
+         * Core an602 API + commonly required modules
          */
         CoreApiAsset::class,
         ContentAsset::class,

@@ -15,7 +15,7 @@ use yii\base\Model;
 use yii\helpers\Html;
 
 /**
- * This extension is used to support legacy richtext format (An602 <1.3).
+ * This extension is used to support legacy richtext format (an602 <1.3).
  *
  * The legacy format uses a different syntax for emoji, mentioning, oembed.
  *

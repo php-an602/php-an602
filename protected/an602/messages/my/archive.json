@@ -564,8 +564,8 @@
 	"All modules are up to date!": [
 		"¡Todos los módulos están la versión más reciente!"
 	],
-	"<strong>About</strong> An602": [
-		"<strong>Acerca de</strong> An602"
+	"<strong>About</strong> an602": [
+		"<strong>Acerca de</strong> an602"
 	],
 	"Currently installed version: %currentVersion%": [
 		"Versión instalada actualmente: %currentVersion%"
@@ -576,8 +576,8 @@
 	"There is a new update available! (Latest version: %version%)": [
 		"¡Hay una nueva versión disponible! (Última versión: %version%)"
 	],
-	"This An602 installation is up to date!": [
-		"¡Esta instalación de An602 ya está actualizada!"
+	"This an602 installation is up to date!": [
+		"¡Esta instalación de an602 ya está actualizada!"
 	],
 	"Accept": [
 		"Aceptar"
@@ -657,8 +657,8 @@
 	"Total {count} entries found.": [
 		"Total {count} entradas encontradas."
 	],
-	"Modules extend the functionality of An602. Here you can install and manage modules from the An602 Marketplace.": [
-		"Los módulos permiten extender las funcionalidades de An602. Aquí puedes instalar y configurar módulos de la An602 Marketplace."
+	"Modules extend the functionality of an602. Here you can install and manage modules from the an602 Marketplace.": [
+		"Los módulos permiten extender las funcionalidades de an602. Aquí puedes instalar y configurar módulos de la an602 Marketplace."
 	],
 	"Available updates": [
 		"Actualizaciones disponibles"
@@ -738,8 +738,8 @@
 	"User Profiles": [
 		"Perfiles de usuarios"
 	],
-	"There is a new An602 Version (%version%) available.": [
-		"Hay una nueva versión de An602 (%version%) disponible."
+	"There is a new an602 Version (%version%) available.": [
+		"Hay una nueva versión de an602 (%version%) disponible."
 	],
 	"<strong>Authentication</strong> - Basic": [
 		"<strong>Autenticación</strong> - Básica"
@@ -931,8 +931,8 @@
 	"<strong>Self</strong> test": [
 		"<strong>Auto</strong> test"
 	],
-	"Checking An602 software prerequisites.": [
-		"Comprobando prerequisitos software de An602."
+	"Checking an602 software prerequisites.": [
+		"Comprobando prerequisitos software de an602."
 	],
 	"Re-Run tests": [
 		"Re-ejecutar tests"
@@ -1504,11 +1504,11 @@
 	"The installation completed successfully! Have fun with your new social network.": [
 		"¡La instalación se ha completado correctamente!. Diviértete con tu nueva red social."
 	],
-	"<strong>Welcome</strong> to PHP-AN602<br>Your <strong>C</strong>oders<strong>E</strong>xchange Network ToolBox": [
-		"<strong>Bienvenido</strong> a An602<br>"
+	"<strong>Welcome</strong> to an602<br>Your Social Network Toolbox": [
+		"<strong>Bienvenido</strong> a an602<br>"
 	],
-	"This wizard will install and configure your personal PHP-AN602 <strong>C</strong>oders<strong>E</strong>xchange node.<br><br>To continue, click Next.": [
-		"Este asistente instalará y configurará An602.<br><br>Para continuar, haz click en Siguiente."
+	"This wizard will install and configure your own an602 instance.<br><br>To continue, click Next.": [
+		"Este asistente instalará y configurará an602.<br><br>Para continuar, haz click en Siguiente."
 	],
 	"Yes, database connection works!": [
 		"¡Si, la conexión con la base de datos funciona!"
@@ -1525,8 +1525,8 @@
 	"Ohh, something went wrong!": [
 		"¡Algo fue mal!"
 	],
-	"The name of the database you want to run An602 in.": [
-		"El nombre de la base de datos donde quieres que funcione An602."
+	"The name of the database you want to run an602 in.": [
+		"El nombre de la base de datos donde quieres que funcione an602."
 	],
 	"Your MySQL password.": [
 		"Tu contraseña MySQL"
@@ -1543,8 +1543,8 @@
 	"Congratulations! Everything is ok and ready to start over!": [
 		"¡Felicidades! ¡Todo está correcto y listo para empezar!"
 	],
-	"This overview shows all system requirements of An602.": [
-		"Este resumen te mostrará todos los requisitos del sistema para que funcione An602."
+	"This overview shows all system requirements of an602.": [
+		"Este resumen te mostrará todos los requisitos del sistema para que funcione an602."
 	],
 	"Could not find target class!": [
 		"¡No se pudo encontrar la clase objetivo!"
@@ -2078,8 +2078,8 @@
 	"As an admin, you can manage the whole platform from here.<br><br>Apart from the modules, we are not going to go into each point in detail here, as each has its own short description elsewhere.": [
 		"Como administrador, puedes gestionar la plataforma desde aquí.<br><br>Además de los módulos, no vamos a entrar en detalle aquí, ya que cada módulo muestra su propia descripción."
 	],
-	"You are currently in the tools menu. From here you can access the An602 online marketplace, where you can install an ever increasing number of tools on-the-fly.<br><br>As already mentioned, the tools increase the features available for your space.": [
-		"Ahora te encuentras en el menú de herramientas. Desde aquí puedes acceder al Marketplace de An602, donde puedes instalar una cantidad cada vez mayor de módulos al instante.<br><br>Como ya se ha mencionado, los módulos incrementan las características de tu sitio."
+	"You are currently in the tools menu. From here you can access the an602 online marketplace, where you can install an ever increasing number of tools on-the-fly.<br><br>As already mentioned, the tools increase the features available for your space.": [
+		"Ahora te encuentras en el menú de herramientas. Desde aquí puedes acceder al Marketplace de an602, donde puedes instalar una cantidad cada vez mayor de módulos al instante.<br><br>Como ya se ha mencionado, los módulos incrementan las características de tu sitio."
 	],
 	"You have now learned about all the most important features and settings and are all set to start using the platform.<br><br>We hope you and all future users will enjoy using this site. We are looking forward to any suggestions or support you wish to offer for our project. Feel free to contact us via www.an602.org.<br><br>Stay tuned. :-)": [
 		"Ahora ya has aprendido las características y los ajustes más importantes y ya estñas preparado para utilizar la plataforma.<br><br>Esperamos que tú y todos los futuros usuarios disfruten del sitio. Estamos siempre mejorando y siempre puedes enviarnos sugerencias o te podemos ofrecer soporte para tu proyecto. Siéntete libre de contactar con nosotros vía www.an602.org.<br><br>Mantente en contacto :-)"

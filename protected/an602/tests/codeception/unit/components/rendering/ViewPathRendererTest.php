@@ -2,12 +2,12 @@
 
 namespace an602\tests\codeception\unit;
 
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\tests\codeception\unit\components\rendering\lib\TestViewable;
 use an602\components\rendering\ViewPathRenderer;
 
-class ViewPathRendererTest extends An602DbTestCase
+class ViewPathRendererTest extends an602DbTestCase
 {
 
     use Specify;

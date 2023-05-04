@@ -5,9 +5,9 @@ namespace an602\modules\content\tests\codeception\unit;
 
 
 use an602\modules\content\widgets\richtext\ProsemirrorRichText;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class RichtextExtensionTest extends An602DbTestCase
+class RichtextExtensionTest extends an602DbTestCase
 {
     public function testScanMultipleFileGuid()
     {

@@ -3,12 +3,12 @@
 namespace tests\codeception\unit\modules\friendship;
 
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\modules\friendship\models\Friendship;
 use an602\modules\user\models\User;
 
-class FriendshipTest extends An602DbTestCase
+class FriendshipTest extends an602DbTestCase
 {
 
     use Specify;

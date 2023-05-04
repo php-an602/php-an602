@@ -35,7 +35,7 @@ The license was successfully removed!
 
 ',
   '<strong>Activate</strong> your Professional Edition' => '<strong>Активируйте</strong> свою Профессиональную версию',
-  'A new update is available (An602 %version%)!' => '',
+  'A new update is available (an602 %version%)!' => '',
   'Add Licence Key' => 'Добавить лицензионный ключ',
   'Add purchased module by licence key' => 'Добавить ключ для приобретённого модуля',
   'All' => 'Все',
@@ -46,7 +46,7 @@ The license was successfully removed!
   'Categories' => '',
   'Changelog' => '',
   'Community' => '',
-  'Could not connect to An602 API!
+  'Could not connect to an602 API!
 ' => '',
   'Could not connect to licence server!' => '',
   'Could not extract module!' => 'Не удалось извлечь модуль!',
@@ -55,7 +55,7 @@ The license was successfully removed!
   'Download of module failed!' => 'Не удалось загрузить модуль!',
   'Edit licence' => 'Редактировать лицензию',
   'Featured' => '',
-  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => '',
+  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => '',
   'Install' => 'Установить',
   'Installed' => 'Установленные',
   'Installing module...' => 'Установить модуль...',
@@ -98,7 +98,7 @@ The license was successfully removed!
   'Save and update' => 'Сохранить и обновить',
   'Stop updating' => '',
   'Tags' => 'Теги',
-  'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => '',
+  'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => '',
   'Third-party' => 'Сторонние разработчики',
   'Third-party Modules are not covered by Professional Edition agreements.' => '',
   'Third-party disclaimer' => 'Отказ от ответственности за продукты сторонних разработчиков',
@@ -107,5 +107,5 @@ The license was successfully removed!
   'Update all' => '',
   'Upgrade to Professional Edition' => 'Обновление до Профессиональной Версии',
   'Version:' => 'Версия:',
-  'Your An602 installation is up to date!' => '',
+  'Your an602 installation is up to date!' => '',
 );

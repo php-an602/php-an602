@@ -1,7 +1,7 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2015 Brandon Maintenance Management, LLC
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2015 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
  * @license https://www.an602.org/licences
  */
 
@@ -11,7 +11,7 @@ class m150924_133344_update_notification_fix extends Migration
 {
     public function up()
     {
-        $this->update('notification', ['class' => 'an602\modules\admin\notifications\NewVersionAvailable'], ['class' => 'An602UpdateNotification']);
+        $this->update('notification', ['class' => 'an602\modules\admin\notifications\NewVersionAvailable'], ['class' => 'an602UpdateNotification']);
     }
 
     public function down()

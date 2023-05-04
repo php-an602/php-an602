@@ -8,9 +8,9 @@ use an602\modules\content\models\Content;
 use an602\modules\post\models\Post;
 use an602\modules\user\models\User;
 use an602\modules\user\stream\ProfileStreamQuery;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class ProfileStreamTest extends An602DbTestCase
+class ProfileStreamTest extends an602DbTestCase
 {
     /**
      * @var User

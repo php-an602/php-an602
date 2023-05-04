@@ -27,7 +27,7 @@ The license was successfully removed!
 
 ' => '--- 啟用模組: {moduleId} ---',
   '<strong>Activate</strong> your Professional Edition' => '',
-  'A new update is available (An602 %version%)!' => '',
+  'A new update is available (an602 %version%)!' => '',
   'Add Licence Key' => '添加授權碼',
   'Add purchased module by licence key' => '',
   'All' => '所有結果',
@@ -38,7 +38,7 @@ The license was successfully removed!
   'Categories' => '',
   'Changelog' => '',
   'Community' => '',
-  'Could not connect to An602 API!
+  'Could not connect to an602 API!
 ' => '',
   'Could not connect to licence server!' => '',
   'Could not extract module!' => '',
@@ -47,7 +47,7 @@ The license was successfully removed!
   'Download of module failed!' => '',
   'Edit licence' => '',
   'Featured' => '',
-  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => '',
+  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => '',
   'Install' => '',
   'Installed' => '已安裝',
   'Installing module...' => '',
@@ -88,7 +88,7 @@ The license was successfully removed!
   'Save and update' => '保存且更新',
   'Stop updating' => '',
   'Tags' => '標籤',
-  'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => '',
+  'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => '',
   'Third-party' => '第三方',
   'Third-party Modules are not covered by Professional Edition agreements.' => '',
   'Third-party disclaimer' => '第三方聲明',
@@ -97,5 +97,5 @@ The license was successfully removed!
   'Update all' => '全部更新',
   'Upgrade to Professional Edition' => '升級到專業版本',
   'Version:' => '版本:',
-  'Your An602 installation is up to date!' => '您的An602安裝已經是最新版本!',
+  'Your an602 installation is up to date!' => '您的an602安裝已經是最新版本!',
 );

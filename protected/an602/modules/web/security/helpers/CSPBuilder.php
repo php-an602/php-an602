@@ -8,7 +8,7 @@ use Psr\Http\Message\MessageInterface;
  * Class CSPBuilder from https://github.com/paragonie/csp-builder/blob/master/src/CSPBuilder.php made compatible with
  * PHP 5.6
  *
- * An602 Patches:
+ * an602 Patches:
  *  - PHP 5.6 compatibility
  *  - Removed report-to since it borke reporting
  *  - Added rtrim to compile to remove tailing ;

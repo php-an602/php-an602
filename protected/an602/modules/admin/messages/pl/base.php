@@ -25,7 +25,7 @@ return array (
   'Cronjobs' => 'Zadania cron',
   'Deactivate' => 'Dezaktywuj',
   'Default' => 'Domyślna',
-  'Default group for administrators of this An602 Installation' => 'Domyślna grupa dla administratorów tej instancji Humhub\'a',
+  'Default group for administrators of this an602 Installation' => 'Domyślna grupa dla administratorów tej instancji an602\'a',
   'Default group for all newly registered users of the network' => 'Domyślna grupa dla nowo zarejestrowanych użytkowników sieci',
   'Delete all' => 'Usuń wszystkie',
   'Delete selected rows' => 'Usuń wybrane wiersze',

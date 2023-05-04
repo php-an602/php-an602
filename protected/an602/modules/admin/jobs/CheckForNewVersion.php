@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\admin\jobs;
 
-use an602\modules\admin\libs\An602API;
+use an602\modules\admin\libs\an602API;
 use an602\modules\admin\Module;
 use an602\modules\admin\notifications\NewVersionAvailable;
 use an602\modules\queue\ActiveJob;
@@ -17,7 +17,7 @@ use Yii;
 
 
 /**
- * CheckForNewVersion checks for new An602 version and sends a notification to
+ * CheckForNewVersion checks for new an602 version and sends a notification to
  * the administrators
  *
  * @since 1.2
@@ -38,7 +38,7 @@ class CheckForNewVersion extends ActiveJob
             return;
         }
 
-        $latestVersion = An602API::getLatestAn602Version();
+        $latestVersion = an602API::getLatestan602Version();
 
         if (!empty($latestVersion)) {
 

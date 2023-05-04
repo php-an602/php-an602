@@ -25,7 +25,7 @@ return array (
   'Cronjobs' => 'Задания Cron',
   'Deactivate' => 'Деактивировать',
   'Default' => 'По умолчанию',
-  'Default group for administrators of this An602 Installation' => 'Группа по умолчанию для администраторов этой установки An602',
+  'Default group for administrators of this an602 Installation' => 'Группа по умолчанию для администраторов этой установки an602',
   'Default group for all newly registered users of the network' => 'Группа по умолчанию для всех вновь зарегистрированных пользователей сети',
   'Delete all' => 'Удалить все',
   'Delete selected rows' => 'Удаление выбранных строк',

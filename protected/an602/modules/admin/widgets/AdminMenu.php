@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\admin\widgets;
@@ -82,7 +82,7 @@ class AdminMenu extends LeftNavigation
             'id' => 'spaces',
             'label' => Yii::t('AdminModule.base', 'Spaces'),
             'url' => ['/admin/space'],
-            'icon' => 'inbox',
+            'icon' => 'dot-circle-o',
             'sortOrder' => 400,
             'isActive' => MenuLink::isActiveState('admin', 'space'),
             'isVisible' => Yii::$app->user->can([

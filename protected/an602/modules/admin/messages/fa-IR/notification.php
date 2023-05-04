@@ -4,7 +4,7 @@ return array (
   'Notify from {appName}. You were added to the group.' => '',
   'Notify from {appName}. You were removed from the group.' => '',
   'Receive Notifications for administrative events like available updates.' => '',
-  'There is a new An602 Version ({version}) available.' => 'نسخه جدیدی از هام‌هاب ({version}) موجود است.',
+  'There is a new an602 Version ({version}) available.' => 'نسخه جدیدی از هام‌هاب ({version}) موجود است.',
   '{displayName} added you to group {groupName}' => '{displayName} شما را به گروه {groupName} افزود',
   '{displayName} removed you from group {groupName}' => '{displayName} شما را از گروه {groupName} زدود',
 );

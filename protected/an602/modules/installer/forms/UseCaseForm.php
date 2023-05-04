@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2015 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2015 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\installer\forms;
@@ -39,7 +39,7 @@ class UseCaseForm extends \yii\base\Model
     public function attributeLabels()
     {
         return [
-            'useCase' => Yii::t('InstallerModule.base', 'I want to use An602 for:'),
+            'useCase' => Yii::t('InstallerModule.base', 'I want to use an602 for:'),
         ];
     }
 

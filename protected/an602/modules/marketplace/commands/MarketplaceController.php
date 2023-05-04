@@ -1,23 +1,23 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace\commands;
 
 use an602\components\Module;
 use an602\models\ModuleEnabled;
-use an602\modules\admin\libs\An602API;
+use an602\modules\admin\libs\an602API;
 use Yii;
 use yii\base\InvalidArgumentException;
 use yii\console\Controller;
 use yii\helpers\Console;
 
 /**
- * An602 Module Managament
+ * an602 Module Managament
  *
  * @property \an602\modules\marketplace\Module $module
  * @since 0.5
@@ -261,10 +261,10 @@ class MarketplaceController extends Controller
             return 1;
         }
 
-        $result = An602API::request('v1/modules/registerPaid', ['licenceKey' => $licenceKey]);
+        $result = an602API::request('v1/modules/registerPaid', ['licenceKey' => $licenceKey]);
 
         if (!isset($result['status'])) {
-            $this->stdout(Yii::t('MarketplaceModule.base', 'Could not connect to An602 API!' . "\n"), Console::FG_RED, Console::BOLD);
+            $this->stdout(Yii::t('MarketplaceModule.base', 'Could not connect to an602 API!' . "\n"), Console::FG_RED, Console::BOLD);
             return 1;
         }
 

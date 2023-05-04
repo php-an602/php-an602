@@ -5,12 +5,12 @@ namespace tests\codeception\unit;
 use an602\modules\content\models\Content;
 use an602\modules\post\models\Post;
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\modules\space\models\Space;
 use an602\modules\user\models\User;
 
-class ContentCreatedTest extends An602DbTestCase
+class ContentCreatedTest extends an602DbTestCase
 {
 
     use Specify;

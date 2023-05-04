@@ -5,11 +5,11 @@ namespace tests\codeception\unit\models;
 use an602\modules\space\models\Space;
 use an602\modules\user\models\Invite;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 use yii\db\ActiveQuery;
 
-class InviteModelTest extends An602DbTestCase
+class InviteModelTest extends an602DbTestCase
 {
     public function testReturnTableName()
     {

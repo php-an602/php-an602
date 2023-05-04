@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2016 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2016 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\user\models\fieldtype;
@@ -209,7 +209,7 @@ class Birthday extends BaseType
          * - user set hide age yes
          */
         if ($hideAge === self::HIDE_AGE_YES) {
-            // See: https://github.com/php-an602/php-an602/issues/5187#issuecomment-888178022
+            // See: https://github.com/an602/an602/issues/5187#issuecomment-888178022
             
             $month = Yii::$app->formatter->asDate($birthdayDate, 'php:F');
             $day = Yii::$app->formatter->asDate($birthdayDate, 'php:d');

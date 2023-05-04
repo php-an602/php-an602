@@ -4,13 +4,13 @@
  * Application configuration shared by all test types
  */
 $default = [
-    'name' => 'An602 Test',
+    'name' => 'an602 Test',
     'language' => 'en-US',
     'params' => [
         'installed' => true,
         'settings' => [
             'core' => [
-                'name' => 'An602 Test',
+                'name' => 'an602 Test',
                 'baseUrl' => 'http://localhost:8080',
             ],
         ]

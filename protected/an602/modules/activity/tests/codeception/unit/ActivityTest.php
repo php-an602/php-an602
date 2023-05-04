@@ -5,11 +5,11 @@ namespace an602\modules\activity\tests\codeception\unit;
 use an602\modules\activity\models\Activity;
 use an602\modules\activity\tests\codeception\activities\TestActivity;
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\modules\post\models\Post;
 
-class ActivityTest extends An602DbTestCase
+class ActivityTest extends an602DbTestCase
 {
 
     use Specify;

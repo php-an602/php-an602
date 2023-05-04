@@ -9,10 +9,10 @@ use an602\modules\space\models\Membership;
 use an602\modules\space\models\Space;
 use an602\modules\user\models\Follow;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 
-class LegitimationTest extends An602DbTestCase
+class LegitimationTest extends an602DbTestCase
 {
     public function _before()
     {

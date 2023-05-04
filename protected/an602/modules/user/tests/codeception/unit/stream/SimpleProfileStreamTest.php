@@ -15,7 +15,7 @@ use an602\modules\user\notifications\Mentioned;
 use an602\modules\user\stream\filters\IncludeAllContributionsFilter;
 use an602\modules\user\stream\ProfileStreamQuery;
 use an602\modules\user\tests\codeception\_support\ProfileStreamTest;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use yii\base\Exception;
 
 class SimpleProfileStreamTest extends ProfileStreamTest

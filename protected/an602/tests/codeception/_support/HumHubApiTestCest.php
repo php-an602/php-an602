@@ -5,7 +5,7 @@ namespace tests\codeception\_support;
 use an602\modules\rest\Module;
 use Yii;
 
-class An602ApiTestCest
+class an602ApiTestCest
 {
 
     /**

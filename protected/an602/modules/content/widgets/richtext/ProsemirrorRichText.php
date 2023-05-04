@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
@@ -99,7 +99,7 @@ use yii\helpers\Html;
  * File upload support.
  *
  * @author Julian Harrer <julian.harrer@an602.com>
- * @see https://github.com/humhub/humhub-prosemirror for more information about the prosemirror-richtext client implementation
+ * @see https://github.com/an602/an602-prosemirror for more information about the prosemirror-richtext client implementation
  * @see https://prosemirror.net/docs/ Prosemirror documentation
  * @see https://github.com/markdown-it/markdown-it markdown-it repository
  * @since 1.3

@@ -4,7 +4,7 @@ return array (
   'Notify from {appName}. You were added to the group.' => 'Notificación de {appName}. Has sido añadido al grupo.',
   'Notify from {appName}. You were removed from the group.' => 'Notificación de {appName}. Has sido eliminado del grupo.',
   'Receive Notifications for administrative events like available updates.' => 'Recibir notificaciones para eventos administrativos como actualizaciones disponibles.',
-  'There is a new An602 Version ({version}) available.' => 'Hay una nueva versión de An602 ({version}) disponible.',
+  'There is a new an602 Version ({version}) available.' => 'Hay una nueva versión de an602 ({version}) disponible.',
   '{displayName} added you to group {groupName}' => '{displayName} te agregó al grupo {groupName}',
   '{displayName} removed you from group {groupName}' => '{displayName} te eliminó del grupo {groupName}',
 );

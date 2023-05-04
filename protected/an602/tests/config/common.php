@@ -14,8 +14,8 @@ return [
         'view' => [
             'theme' =>
             [
-                'name' => 'An602',
-                'basePath' => '@webroot/themes/An602',
+                'name' => 'an602',
+                'basePath' => '@webroot/themes/an602',
             ],
         ],
         'queue' => [

@@ -27,7 +27,7 @@ The license was successfully removed!
 
 ' => '--- Aktivera modul: {moduleId} ---',
   '<strong>Activate</strong> your Professional Edition' => '<strong>Aktivera</strong> din PROFESSIONELLA UTGÅVA',
-  'A new update is available (An602 %version%)!' => 'En ny uppdatering är tillgänglig (An602 %version%)!',
+  'A new update is available (an602 %version%)!' => 'En ny uppdatering är tillgänglig (an602 %version%)!',
   'Add Licence Key' => 'Lägg till licensnyckel',
   'Add purchased module by licence key' => 'Lägg till köpt modul med licensnyckel',
   'All' => 'Alla',
@@ -38,8 +38,8 @@ The license was successfully removed!
   'Categories' => 'Kategorier',
   'Changelog' => 'Ändringslogg',
   'Community' => 'Community',
-  'Could not connect to An602 API!
-' => 'Kunde inte ansluta till An602 API!',
+  'Could not connect to an602 API!
+' => 'Kunde inte ansluta till an602 API!',
   'Could not connect to licence server!' => 'Kunde inte ansluta till licensservern!',
   'Could not extract module!' => 'Kunde inte extrahera modulen!',
   'Could not remove old module path!' => 'Kunde inte ta bort gammal modulsökväg!',
@@ -47,7 +47,7 @@ The license was successfully removed!
   'Download of module failed!' => 'Nedladdning av modul misslyckades!',
   'Edit licence' => 'Redigera licens',
   'Featured' => 'Utvalda',
-  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => 'Om denna modul dessutom är markerad som <strong>"Community"</strong> testas den varken eller övervakas den av An602-projektteamet.',
+  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => 'Om denna modul dessutom är markerad som <strong>"Community"</strong> testas den varken eller övervakas den av an602-projektteamet.',
   'Install' => 'Installera',
   'Installed' => 'Installerad',
   'Installing module...' => 'Installerar modul...',
@@ -88,7 +88,7 @@ The license was successfully removed!
   'Save and update' => 'Spara och uppdatera',
   'Stop updating' => 'Avsluta uppdatering',
   'Tags' => 'Taggar',
-  'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'An602-projektet garanterar inte funktionaliteten, kvaliteten eller den kontinuerliga utvecklingen av denna modul.',
+  'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'an602-projektet garanterar inte funktionaliteten, kvaliteten eller den kontinuerliga utvecklingen av denna modul.',
   'Third-party' => 'Tredje part',
   'Third-party Modules are not covered by Professional Edition agreements.' => 'Tredjepartsmoduler omfattas inte av avtalet för Professional Edition.',
   'Third-party disclaimer' => 'Ansvarsfriskrivning från tredje part',
@@ -97,5 +97,5 @@ The license was successfully removed!
   'Update all' => 'Uppdatera alla',
   'Upgrade to Professional Edition' => 'Uppgradera till Professional Edition',
   'Version:' => 'Version:',
-  'Your An602 installation is up to date!' => 'Din An602-installation är uppdaterad!',
+  'Your an602 installation is up to date!' => 'Din an602-installation är uppdaterad!',
 );

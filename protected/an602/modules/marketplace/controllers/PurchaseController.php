@@ -1,14 +1,14 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2019 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2019 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace\controllers;
 
 use an602\modules\admin\components\Controller;
-use an602\modules\admin\libs\An602API;
+use an602\modules\admin\libs\an602API;
 use an602\modules\admin\permissions\ManageModules;
 use an602\modules\marketplace\Module;
 use Yii;
@@ -48,10 +48,10 @@ class PurchaseController extends Controller
         $licenceKey = Yii::$app->request->post('licenceKey', '');
 
         if ($licenceKey !== '') {
-            $result = An602API::request('v1/modules/registerPaid', ['licenceKey' => $licenceKey]);
+            $result = an602API::request('v1/modules/registerPaid', ['licenceKey' => $licenceKey]);
             if (!isset($result['status'])) {
                 $hasError = true;
-                $message = 'Could not connect to An602 API!';
+                $message = 'Could not connect to an602 API!';
             } elseif ($result['status'] == 'ok' || $result['status'] == 'created') {
                 $message = 'Module licence added!';
                 $licenceKey = '';

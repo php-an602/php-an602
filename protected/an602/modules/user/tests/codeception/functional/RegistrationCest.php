@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\user\tests\codeception\functional;
@@ -49,7 +49,7 @@ class RegistrationCest
         $I->see('Registration successful!');
 
         $I->assertMailSent(1);
-        $I->assertEqualsLastEmailSubject('Welcome to An602 Test');
+        $I->assertEqualsLastEmailSubject('Welcome to an602 Test');
 
         $matches = [];
         preg_match('/(index-test.php.*)/', $I->grapLastEmailText(), $matches);

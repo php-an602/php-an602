@@ -3,10 +3,10 @@
 namespace tests\codeception\unit;
 
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 
-class ImpersonateTest extends An602DbTestCase
+class ImpersonateTest extends an602DbTestCase
 {
 
     public function testImpersonateByAdmin()

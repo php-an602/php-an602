@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\search\engine;
@@ -52,7 +52,7 @@ class ZendLuceneSearch extends Search
      *
      * This property should be at least as high as the number of items a search can match.
      * It needs to be configured dependent on the amount of items stored in the
-     * Humhub database.
+     * an602 database.
      *
      * It can be set to 0 for no limitation, but that may result in search queries
      * to fail caused by high memory usage.

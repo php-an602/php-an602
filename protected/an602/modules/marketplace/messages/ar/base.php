@@ -66,17 +66,17 @@ The license was successfully removed!
     '--- Enable module: {moduleId} ---
 
 ' => '',
-    'A new update is available (An602 %version%)!' => '',
+    'A new update is available (an602 %version%)!' => '',
     'Add Licence Key' => '',
     'Available Updates' => '',
     'Buy' => '',
     'Categories' => '',
     'Changelog' => '',
     'Community' => '',
-    'Could not connect to An602 API!
+    'Could not connect to an602 API!
 ' => '',
     'Featured' => '',
-    'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => '',
+    'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => '',
     'Invalid module licence key!
 ' => '',
     'Learn more' => '',
@@ -94,9 +94,9 @@ The license was successfully removed!
     'Partner' => '',
     'Professional Edition' => '',
     'Stop updating' => '',
-    'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => '',
+    'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => '',
     'Third-party Modules are not covered by Professional Edition agreements.' => '',
     'This Module was developed by a third-party.' => '',
     'Update all' => '',
-    'Your An602 installation is up to date!' => '',
+    'Your an602 installation is up to date!' => '',
 ];

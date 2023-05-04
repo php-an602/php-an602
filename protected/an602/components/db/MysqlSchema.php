@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\components\db;
@@ -15,7 +15,7 @@ use yii\db\mysql\Schema;
 /**
  * Class MysqlSchema
  *
- * This class is a hotfix for Yii2 bug #18207 and will be removed with An602 1.7+.
+ * This class is a hotfix for Yii2 bug #18207 and will be removed with an602 1.7+.
  *
  * @see https://github.com/yiisoft/yii2/issues/18207
  * @expectedDeprecation 1.7

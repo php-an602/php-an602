@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
@@ -14,10 +14,10 @@ use an602\modules\content\widgets\richtext\RichText;
 use an602\modules\file\models\File;
 use an602\modules\post\models\Post;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
 
-class RichTextLinkExtensionLegacyTest extends An602DbTestCase
+class RichTextLinkExtensionLegacyTest extends an602DbTestCase
 {
 
     /**

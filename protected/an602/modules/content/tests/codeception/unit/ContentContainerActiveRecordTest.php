@@ -1,20 +1,20 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
 namespace tests\codeception\unit\modules\content;
 
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
 use an602\modules\space\models\Space;
 use Yii;
 
-class ContentContainerActiveRecordTest extends An602DbTestCase
+class ContentContainerActiveRecordTest extends an602DbTestCase
 {
 
     public function testUserIsNotASpace()

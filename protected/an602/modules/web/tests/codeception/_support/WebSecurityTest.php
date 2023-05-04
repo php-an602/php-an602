@@ -6,11 +6,11 @@ namespace web;
 
 use an602\modules\web\Module;
 use an602\modules\web\security\helpers\Security;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 use yii\helpers\Json;
 
-class WebSecurityTest extends An602DbTestCase
+class WebSecurityTest extends an602DbTestCase
 {
     /**
      * @return Module

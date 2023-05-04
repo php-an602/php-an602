@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\content\widgets\richtext\converter;
@@ -20,10 +20,10 @@ use yii\helpers\HtmlPurifier;
 use yii\helpers\Url;
 
 /**
- * This parser can be used to convert An602 richtext directly to html. Note, this parser will only output html supported
- * by plain markdown without any special richtext features. Some An602 markdown extensions may be supported in the future.
+ * This parser can be used to convert an602 richtext directly to html. Note, this parser will only output html supported
+ * by plain markdown without any special richtext features. Some an602 markdown extensions may be supported in the future.
  *
- * Since the An602 richtext does not support direct HTML in markdown those HTML elements will be encoded.
+ * Since the an602 richtext does not support direct HTML in markdown those HTML elements will be encoded.
  *
  * The output parser output will be purified and can safely be used.
  *

@@ -1,6 +1,13 @@
 <?php
+
+/*
+ * @link      https://www.an602.org/
+ * @copyright Copyright (c) 2023 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license   https://www.an602.com/licences
+ */
+
 return [
-    ['name' => 'name', 'value' => 'An602', 'module_id' => 'base'],
+    ['name' => 'name', 'value' => 'an602', 'module_id' => 'base'],
     ['name' => 'baseUrl', 'value' => 'http://localhost:8080', 'module_id' => 'base'],
     ['name' => 'paginationSize', 'value' => '10', 'module_id' => 'base'],
     ['name' => 'displayNameFormat', 'value' => '{profile.firstname} {profile.lastname}', 'module_id' => 'base'],
@@ -19,7 +26,7 @@ return [
     ['name' => 'cache.class', 'value' => 'CFileCache', 'module_id' => 'base'],
     ['name' => 'cache.expireTime', 'value' => '3600', 'module_id' => 'base'],
     ['name' => 'installationId', 'value' => '99846c45e9b9b0962238986a6fed519a', 'module_id' => 'admin'],
-    ['name' => 'theme', 'value' => 'An602', 'module_id' => 'base'],
+    ['name' => 'theme', 'value' => 'an602', 'module_id' => 'base'],
     ['name' => 'tour', 'value' => '1', 'module_id' => 'base'],
     ['name' => 'colorDefault', 'value' => '#ededed', 'module_id' => 'base'],
     ['name' => 'colorPrimary', 'value' => '#708fa0', 'module_id' => 'base'],
@@ -67,4 +74,6 @@ return [
     ['name' => 'defaultLanguage', 'value' => 'en-US', 'module_id' => 'base'],
     ['name' => 'maintenanceMode', 'value' => '0', 'module_id' => 'base'],
     ['name' => 'enableProfilePermissions', 'value' => '1', 'module_id' => 'user'],
+    ['name' => 'testSetting', 'value' => 'Test Setting for Base', 'module_id' => 'base' ],
+    ['name' => 'testSetting0', 'value' => 'Test Setting 0 for Base', 'module_id' => 'base', ],
 ];

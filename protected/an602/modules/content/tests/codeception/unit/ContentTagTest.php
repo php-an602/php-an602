@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
@@ -20,10 +20,10 @@ use an602\modules\content\models\Content;
 use an602\modules\content\models\ContentTag;
 use an602\modules\content\models\ContentTagRelation;
 use an602\modules\space\models\Space;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use yii\base\InvalidArgumentException;
 
-class ContentTagTest extends An602DbTestCase
+class ContentTagTest extends an602DbTestCase
 {
     public $space;
 

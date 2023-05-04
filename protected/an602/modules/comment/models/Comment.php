@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\comment\models;
@@ -366,7 +366,7 @@ class Comment extends ContentAddonActiveRecord implements ContentOwner
     }
 
     /**
-     * TODO: Unify with Content::isUpdated() see https://github.com/php-an602/php-an602/pull/4380
+     * TODO: Unify with Content::isUpdated() see https://github.com/an602/an602/pull/4380
      * @returns boolean true if this comment has been updated, otherwise false
      * @since 1.7
      */

@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2021 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2021 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\content\tests\codeception\unit;
@@ -11,9 +11,9 @@ use an602\modules\content\widgets\richtext\converter\RichTextToEmailHtmlConverte
 use an602\modules\file\actions\DownloadAction;
 use an602\modules\file\models\File;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class RichTextToEmailHtmlConverterTest extends An602DbTestCase
+class RichTextToEmailHtmlConverterTest extends an602DbTestCase
 {
     public function testEmailHtmlConverter()
     {

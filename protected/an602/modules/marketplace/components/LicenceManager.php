@@ -2,14 +2,14 @@
 
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace\components;
 
-use an602\modules\admin\libs\An602API;
+use an602\modules\admin\libs\an602API;
 use an602\modules\marketplace\models\Licence;
 use an602\modules\marketplace\Module;
 use an602\modules\space\models\Space;
@@ -112,7 +112,7 @@ class LicenceManager extends Component
     }
 
     /**
-     * Fetches the licence from the An602 API
+     * Fetches the licence from the an602 API
      *
      * @return bool The retrieval of the license worked, whether it is valid or not.
      */
@@ -147,7 +147,7 @@ class LicenceManager extends Component
 
 
     /**
-     * Removes the licence from this installation and the An602 Marketplace
+     * Removes the licence from this installation and the an602 Marketplace
      *
      * @return boolean
      */
@@ -167,7 +167,7 @@ class LicenceManager extends Component
     }
 
     /**
-     * Request An602 API backend
+     * Request an602 API backend
      *
      * @param $url
      * @param array $params
@@ -175,7 +175,7 @@ class LicenceManager extends Component
      */
     public static function request($url, $params = [])
     {
-        return An602API::request($url, array_merge($params, static::getStats()));
+        return an602API::request($url, array_merge($params, static::getStats()));
     }
 
 

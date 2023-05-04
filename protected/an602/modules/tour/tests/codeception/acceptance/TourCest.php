@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace tour\acceptance;
@@ -23,13 +23,7 @@ class TourCest
 
         $I->dontSeeElement('#getting-started-panel');
 
-        $I->amOnRoute(['/admin/setting/basic']);
-
-        $I->see('Show introduction tour for new users');
-        $I->click('.field-basicsettingsform-tour label');
-
-        $I->click('Save');
-        $I->seeSuccess();
+        $I->checkOptionShowTour();
 
         $I->amOnDashboard();
         $I->waitForText('You are the first user here', null, '#globalModal');

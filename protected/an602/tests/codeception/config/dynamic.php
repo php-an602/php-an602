@@ -1,5 +1,5 @@
 <?php return  [
-  'name' => 'An602',
+  'name' => 'an602',
   'language' => 'en-US',
   'timeZone' => 'Europe/Berlin',
   'components' => 

@@ -3,10 +3,10 @@
 namespace tests\codeception\unit;
 
 use an602\modules\ui\view\helpers\LessHelper;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use yii\helpers\ArrayHelper;
 
-class LessHelperTest extends An602DbTestCase
+class LessHelperTest extends an602DbTestCase
 {
     /**
      * Make sure value of less variables like @firstColor is replaced with real value like #FFF of the less variable with name firstColor

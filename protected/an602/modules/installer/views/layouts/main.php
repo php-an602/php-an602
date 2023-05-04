@@ -30,8 +30,8 @@ AppAsset::register($this);
 
     <div class="container installer" style="margin: 0 auto; max-width: 770px;">
         <div class="logo">
-            <a class="animated fadeIn" href="http://www.php-an602.coders.exchange" target="_blank" class="">
-                <img style="max-width:740px; border-radius:5px;" src="<?php echo Yii::getAlias("@web-static/resources/installer"); ?>/an602-main-logo.png" alt="Logo">
+            <a class="animated fadeIn" href="http://www.an602.org" target="_blank" class="">
+                <img src="<?php echo Yii::getAlias("@web-static/resources/installer"); ?>/an602-logo.png" alt="Logo">
             </a>
         </div>
 

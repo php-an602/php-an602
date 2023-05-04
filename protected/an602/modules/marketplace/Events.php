@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2019 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2019 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace;
@@ -11,7 +11,7 @@ namespace an602\modules\marketplace;
 use an602\components\Module as CoreModule;
 use an602\components\OnlineModule;
 use an602\modules\admin\events\ModulesEvent;
-use an602\modules\admin\libs\An602API;
+use an602\modules\admin\libs\an602API;
 use an602\modules\admin\widgets\ModuleControls;
 use an602\modules\admin\widgets\ModuleFilters;
 use an602\modules\admin\widgets\Modules;
@@ -101,7 +101,7 @@ class Events extends BaseObject
             return;
         }
 
-        $latestVersion = An602API::getLatestAn602Version();
+        $latestVersion = an602API::getLatestan602Version();
         if (!$latestVersion) {
             return;
         }
@@ -115,7 +115,7 @@ class Events extends BaseObject
             $info = [
                 'class' => 'directory-filters-footer-warning',
                 'icon' => 'info-circle',
-                'info' => Yii::t('MarketplaceModule.base', 'A new update is available (An602 %version%)!', ['%version%' => $latestVersion]),
+                'info' => Yii::t('MarketplaceModule.base', 'A new update is available (an602 %version%)!', ['%version%' => $latestVersion]),
                 'link' => Button::asLink(Yii::t('MarketplaceModule.base', 'Learn more'), $updateUrl)
                     ->cssClass('btn btn-primary'),
             ];
@@ -123,8 +123,8 @@ class Events extends BaseObject
             $info = [
                 'class' => 'directory-filters-footer-info',
                 'icon' => 'check-circle',
-                'info' => Yii::t('MarketplaceModule.base', 'Your An602 installation is up to date!'),
-                'link' => Button::asLink('https://www.php-an602.coders.exchange', 'https://www.php-an602.coders.exchange')
+                'info' => Yii::t('MarketplaceModule.base', 'Your an602 installation is up to date!'),
+                'link' => Button::asLink('https://www.an602.com', 'https://www.an602.com')
                     ->cssClass('btn btn-info'),
             ];
         }

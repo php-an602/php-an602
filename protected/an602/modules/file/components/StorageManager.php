@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\file\components;
@@ -150,7 +150,7 @@ class StorageManager extends Component implements StorageManagerInterface
 
         $basePath = Yii::getAlias($this->storagePath);
 
-        // File storage prior An602 1.2
+        // File storage prior an602 1.2
         if (is_dir($basePath . DIRECTORY_SEPARATOR . $this->file->guid)) {
             return $basePath . DIRECTORY_SEPARATOR . $this->file->guid;
         }

@@ -7,9 +7,9 @@ namespace modules\content\tests\codeception\_support;
 use an602\modules\content\models\Content;
 use an602\modules\content\tests\codeception\unit\TestContent;
 use an602\modules\space\models\Space;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class ContentModelTest extends An602DbTestCase
+class ContentModelTest extends an602DbTestCase
 {
     /**
      * @var TestContent

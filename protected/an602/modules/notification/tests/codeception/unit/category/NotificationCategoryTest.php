@@ -3,7 +3,7 @@
 namespace an602\modules\notification\tests\codeception\unit\category;
 
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\modules\notification\tests\codeception\unit\category\notifications\TestNotification;
 use an602\modules\notification\tests\codeception\unit\category\notifications\SpecialNotification;
@@ -11,7 +11,7 @@ use an602\modules\notification\models\forms\NotificationSettings;
 use an602\modules\notification\targets\MailTarget;
 use an602\modules\notification\targets\WebTarget;
 
-class NotificationCategoryTest extends An602DbTestCase
+class NotificationCategoryTest extends an602DbTestCase
 {
 
     use Specify;

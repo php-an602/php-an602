@@ -2,9 +2,9 @@
 namespace an602\tests\codeception\unit\models;
 
 use an602\models\UrlOembed;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class UrlOembedTest extends An602DbTestCase
+class UrlOembedTest extends an602DbTestCase
 {
     public $fixtureConfig = ['default'];
 

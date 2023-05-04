@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 use an602\components\i18n\PhpMessageSource;
@@ -23,8 +23,8 @@ if (!defined('PKCS7_DETACHED')) {
 }
 
 $config = [
-    'name' => 'An602',
-    'version' => '1.14.0',
+    'name' => 'an602',
+    'version' => '1.15.0-dev',
     'minRecommendedPhpVersion' => '7.4',
     'minSupportedPhpVersion' => '7.4',
     'basePath' => dirname(__DIR__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR,
@@ -117,7 +117,7 @@ $config = [
                 'class' => \yii\web\View::class,
                 'theme' => [
                     'class' => \an602\modules\ui\view\components\Theme::class,
-                    'name' => 'An602'
+                    'name' => 'an602'
                 ],
             ],
         ],
@@ -130,7 +130,7 @@ $config = [
             'class' => \an602\modules\ui\view\components\View::class,
             'theme' => [
                 'class' => \an602\modules\ui\view\components\Theme::class,
-                'name' => 'An602',
+                'name' => 'an602',
             ],
         ],
         'db' => [

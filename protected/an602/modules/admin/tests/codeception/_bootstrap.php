@@ -1,6 +1,6 @@
 <?php
 /**
- * This is the initial test bootstrap, which will load the default test bootstrap from the PHP-AN602 core
+ * This is the initial test bootstrap, which will load the default test bootstrap from the an602 core
  */
 // Parse the environment arguments (Note: only simple --env ENV is supported no comma sepration merge...)
 $env = isset($GLOBALS['env']) ? $GLOBALS['env'] : [];

@@ -3,9 +3,9 @@
 namespace tests\codeception\unit;
 
 use an602\modules\user\models\Password;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class AdditionalPasswordValidationTest extends An602DbTestCase
+class AdditionalPasswordValidationTest extends an602DbTestCase
 {
     protected $password;
 

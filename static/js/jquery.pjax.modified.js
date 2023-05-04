@@ -298,7 +298,7 @@
         options.success = function (data, status, xhr) {
             var previousState = pjax.state
 
-            /** AN602 PATCH prevent pjax file attachment **/
+            /** an602 PATCH prevent pjax file attachment **/
             var contentDistribution = xhr.getResponseHeader('Content-Disposition');
             if (contentDistribution && contentDistribution.indexOf('attachment') >= 0) {
                 options.error(xhr, 'Invalid request attempt');
@@ -511,7 +511,7 @@
             var containerSelector = cache[0] || state.container
             var container = $(containerSelector), contents = cache[1]
 
-            // AN602 PATCH, cached content was used even when cache is deactivated.
+            // an602 PATCH, cached content was used even when cache is deactivated.
             var contents = (state.cache) ? cache[1] : undefined;
 
             if (container.length) {

@@ -3,9 +3,9 @@
 namespace tests\codeception\unit;
 
 use an602\modules\admin\models\UserApprovalSearch;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class ApprovalTest extends An602DbTestCase
+class ApprovalTest extends an602DbTestCase
 {
 
     /**

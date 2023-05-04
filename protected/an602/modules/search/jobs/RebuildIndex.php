@@ -1,17 +1,16 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\search\jobs;
 
 use Yii;
-use an602\modules\queue\ActiveJob;
+use an602\modules\queue\LongRunningActiveJob;
 use an602\modules\queue\interfaces\ExclusiveJobInterface;
-use yii\queue\RetryableJobInterface;
 
 /**
  * RebuildIndex job
@@ -19,14 +18,8 @@ use yii\queue\RetryableJobInterface;
  * @since 1.3
  * @author Luke
  */
-class RebuildIndex extends ActiveJob implements ExclusiveJobInterface, RetryableJobInterface
+class RebuildIndex extends LongRunningActiveJob implements ExclusiveJobInterface
 {
-
-    /**
-     * @var int maximum 2 hours
-     */
-    private $maxExecutionTime = 60 * 60 * 2;
-
     /**
      * @inhertidoc
      */
@@ -41,14 +34,6 @@ class RebuildIndex extends ActiveJob implements ExclusiveJobInterface, Retryable
     public function run()
     {
         Yii::$app->search->rebuild();
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function getTtr()
-    {
-        return $this->maxExecutionTime;
     }
 
     /**

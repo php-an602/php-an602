@@ -19,7 +19,7 @@ use yii\helpers\Url;
                     {
                         element: ".list-group-item.modules",
                         title: <?php echo json_encode(Yii::t('TourModule.administration', '<strong>Modules</strong>')); ?>,
-                        content: <?php echo json_encode(Yii::t('TourModule.administration', 'You are currently in the tools menu. From here you can access the An602 online marketplace, where you can install an ever increasing number of tools on-the-fly.<br><br>As already mentioned, the tools increase the features available for your space.')); ?>,
+                        content: <?php echo json_encode(Yii::t('TourModule.administration', 'You are currently in the tools menu. From here you can access the an602 online marketplace, where you can install an ever increasing number of tools on-the-fly.<br><br>As already mentioned, the tools increase the features available for your space.')); ?>,
                         placement: "right"
                     },
                     {

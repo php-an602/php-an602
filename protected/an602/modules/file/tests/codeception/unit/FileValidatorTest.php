@@ -1,19 +1,19 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2019 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2019 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace tests\codeception\unit\modules\file;
 
 use an602\modules\file\models\FileUpload;
 use an602\modules\file\Module;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 use yii\web\UploadedFile;
 
-class FileValidatorTest extends An602DbTestCase
+class FileValidatorTest extends an602DbTestCase
 {
     public function testFilenameValidation()
     {

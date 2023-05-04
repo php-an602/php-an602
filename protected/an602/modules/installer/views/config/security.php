@@ -14,7 +14,7 @@ use yii\bootstrap\Html;
 
     <div class="panel-body">
 
-        <p><?php echo Yii::t('InstallerModule.base', 'Here you can decide how new, unregistered users can access An602.'); ?></p>
+        <p><?php echo Yii::t('InstallerModule.base', 'Here you can decide how new, unregistered users can access an602.'); ?></p>
         <br>
 
         <?php $form = ActiveForm::begin(['enableClientValidation' => false]); ?>

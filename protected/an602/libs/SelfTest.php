@@ -1,15 +1,15 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\libs;
 
 use an602\models\Setting;
-use an602\modules\admin\libs\An602API;
+use an602\modules\admin\libs\an602API;
 use an602\modules\ldap\helpers\LdapHelper;
 use an602\modules\marketplace\Module;
 use Yii;
@@ -239,6 +239,21 @@ class SelfTest
             ];
         }
 
+        // Checks json Extension
+        $title = 'PHP - ' . Yii::t('AdminModule.information', '{phpExtension} Extension', ['phpExtension' => 'json']);
+        if (extension_loaded('json')) {
+            $checks[] = [
+                'title' => $title,
+                'state' => 'OK'
+            ];
+        } else {
+            $checks[] = [
+                'title' => $title,
+                'state' => 'ERROR',
+                'hint' => Yii::t('AdminModule.information', 'Install {phpExtension} Extension', ['phpExtension' => 'PHP json'])
+            ];
+        }
+
         // Checks cURL Extension
         $title = 'PHP - ' . Yii::t('AdminModule.information', '{phpExtension} Extension', ['phpExtension' => 'cURL']);
         if (function_exists('curl_version')) {
@@ -461,7 +476,7 @@ class SelfTest
                     $checks[] = [
                         'title' => $title,
                         'state' => 'WARNING',
-                        'hint' => Html::a(Yii::t('AdminModule.information', 'An602 Documentation'), 'https://docs.an602.org/docs/admin/installation#pretty-urls'),
+                        'hint' => Html::a(Yii::t('AdminModule.information', 'an602 Documentation'), 'https://docs.an602.org/docs/admin/installation#pretty-urls'),
                     ];
                 }
             }
@@ -594,9 +609,9 @@ class SelfTest
             ];
         }
 
-        // Check An602 Marketplace API Connection
-        $title = Yii::t('AdminModule.information', 'An602') . ' - ' . Yii::t('AdminModule.information', 'Marketplace API Connection');
-        if (empty(An602API::getLatestAn602Version(false))) {
+        // Check an602 Marketplace API Connection
+        $title = Yii::t('AdminModule.information', 'an602') . ' - ' . Yii::t('AdminModule.information', 'Marketplace API Connection');
+        if (empty(an602API::getLatestan602Version(false))) {
             $checks[] = [
                 'title' => $title,
                 'state' => 'WARNING'

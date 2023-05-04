@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2021 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2021 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace tests\codeception\unit\modules\file;
@@ -10,9 +10,9 @@ namespace tests\codeception\unit\modules\file;
 use an602\modules\file\models\File;
 use an602\modules\file\models\FileHistory;
 use an602\modules\post\models\Post;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class FileHistoryTest extends An602DbTestCase
+class FileHistoryTest extends an602DbTestCase
 {
 
     public function testRecordWithEnabledHistory()

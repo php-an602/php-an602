@@ -17,7 +17,7 @@ use yii\symfonymailer\Message;
  * and functional tests.  All fixtures will be loaded before the suite is started and unloaded after it
  * completes.
  */
-class An602Helper extends Module
+class an602Helper extends Module
 {
 
     protected $config = [];

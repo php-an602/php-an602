@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2021 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2021 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\content\widgets\richtext\converter;
@@ -15,7 +15,7 @@ use an602\modules\file\models\File;
 use an602\modules\user\models\User;
 
 /**
- * This parser can be used to convert An602 richtext directly to email html in order to view images from email inbox where
+ * This parser can be used to convert an602 richtext directly to email html in order to view images from email inbox where
  * user is not logged in so access is restricted.
  *
  * @since 1.8.2

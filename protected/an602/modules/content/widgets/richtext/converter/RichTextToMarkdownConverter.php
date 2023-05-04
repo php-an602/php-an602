@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\content\widgets\richtext\converter;
@@ -12,7 +12,7 @@ use an602\modules\content\widgets\richtext\extensions\link\RichTextLinkExtension
 use an602\modules\content\widgets\richtext\ProsemirrorRichText;
 
 /**
- * This parser can be used to convert An602 richtext to plain markdown by removing special richtext markdown syntax.
+ * This parser can be used to convert an602 richtext to plain markdown by removing special richtext markdown syntax.
  *
  * Note: The output of this converter will not be encoded, so do not directly embed the output to a HTML view without
  * encoding. When using this as export format, the frontend responsible for rendering the markdown needs to make sure

@@ -1,3 +1,6 @@
+desktop.ini
+_notes
+
 assets/*
 !assets/.gitignore
 

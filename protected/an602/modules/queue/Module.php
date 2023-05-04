@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\queue;
@@ -18,5 +18,10 @@ use an602\components\Module as BaseModule;
  */
 class Module extends BaseModule
 {
-    
+    /**
+     * @var int default ttr for Long Running Jobs
+     *
+     * @since 1.15
+     */
+    public $longRunningJobTtr = 60 * 60;
 }

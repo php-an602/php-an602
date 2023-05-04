@@ -25,7 +25,7 @@ return array (
   'Cronjobs' => 'Cronjobs',
   'Deactivate' => 'ปิดการใช้งาน',
   'Default' => 'ค่าเริ่มต้น',
-  'Default group for administrators of this An602 Installation' => '',
+  'Default group for administrators of this an602 Installation' => '',
   'Default group for all newly registered users of the network' => '',
   'Delete all' => 'ลบทั้งหมด',
   'Delete selected rows' => 'ลบแถวที่เลือก',

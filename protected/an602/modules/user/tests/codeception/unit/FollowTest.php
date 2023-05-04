@@ -5,10 +5,10 @@ namespace tests\codeception\unit;
 use an602\modules\user\models\Follow;
 use an602\modules\user\models\User;
 use an602\modules\user\notifications\Followed;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 
-class FollowTest extends An602DbTestCase
+class FollowTest extends an602DbTestCase
 {
 
     public function testFollowUser()

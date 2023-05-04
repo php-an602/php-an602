@@ -81,7 +81,7 @@ module.exports = function (grunt) {
             },
             buildTheme: {
                 command: function(name) {
-                    let theme = name || grunt.option('name') || "An602";
+                    let theme = name || grunt.option('name') || "an602";
                     let sep = cmdSep();
                     return `cd themes/${theme}/less ${sep} lessc -x build.less ../css/theme.css`;
                 }
@@ -119,7 +119,7 @@ module.exports = function (grunt) {
         less: {
             dev: {
                 files: {
-                    'themes/An602/css/less/theme.css': 'themes/An602/css/less/theme.less'
+                    'themes/an602/css/less/theme.css': 'themes/an602/css/less/theme.less'
                 }
             }
         }
@@ -145,7 +145,7 @@ module.exports = function (grunt) {
     grunt.registerTask('migrate-create', ['shell:migrateCreate']);
 
     /**
-     * Build default An602 theme:
+     * Build default an602 theme:
      *
      * > grunt build-theme
      *

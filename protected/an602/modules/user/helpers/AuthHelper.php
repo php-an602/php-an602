@@ -2,9 +2,9 @@
 
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2015 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2015 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\user\helpers;
@@ -58,13 +58,12 @@ class AuthHelper
         }
 
         $username = [];
-        if (isset($attributes['firstname'])) {
+        if (isset($attributes['firstname']) && !empty($attributes['firstname'])) {
             $username[] = $attributes['firstname'];
         }
-        if (isset($attributes['lasttname'])) {
-            $username[] = $attributes['lasttname'];
-        }
-        if (isset($attributes['family_name'])) {
+        if (isset($attributes['lastname']) && !empty($attributes['lastname'])) {
+            $username[] = $attributes['lastname'];
+        } elseif (isset($attributes['family_name']) && !empty($attributes['family_name'])) {
             $username[] = $attributes['family_name'];
         }
 
@@ -72,6 +71,10 @@ class AuthHelper
             $username = Yii::$app->security->generateRandomString(8);
         } else {
             $username = implode('_', $username);
+        }
+
+        if (empty($username) || $username === '_') {
+            $username = explode("@", $attributes['email'])[0];
         }
 
         $username = strtolower(substr($username, 0, 32));

@@ -11,10 +11,10 @@ use an602\modules\admin\permissions\ManageUsers;
 use an602\modules\user\models\forms\EditGroupForm;
 use an602\modules\user\models\Group;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 
-class GroupsChangesTest extends An602DbTestCase
+class GroupsChangesTest extends an602DbTestCase
 {
 
     public function testUserManagerTryToAssignAdminGroupOnHimself()

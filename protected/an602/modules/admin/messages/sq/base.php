@@ -26,7 +26,7 @@ return [
     'Cronjobs' => 'Cronjobs',
     'Deactivate' => 'Çaktivizo',
     'Default' => 'E paracaktuar',
-    'Default group for administrators of this An602 Installation' => 'Grupi i parazgjedhur për administratorët e këtij instalimi të An602',
+    'Default group for administrators of this an602 Installation' => 'Grupi i parazgjedhur për administratorët e këtij instalimi të an602',
     'Default group for all newly registered users of the network' => 'Grupi i parazgjedhur për të gjithë përdoruesit e rinj të regjistruar të rrjetit',
     'Delete all' => 'Fshij te gjitha',
     'Delete selected rows' => 'Fshi rreshtat e zgjedhur',

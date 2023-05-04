@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 
-an602\assets\An602ColorPickerAsset::register($this);
+an602\assets\an602ColorPickerAsset::register($this);
 
 /* @var $model \yii\base\Model*/
 /* @var $field string */

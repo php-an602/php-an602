@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\controllers;
@@ -28,7 +28,7 @@ class ErrorController extends Controller
      */
     public function actionIndex()
     {
-        // Fix: https://github.com/php-an602/php-an602/issues/3848
+        // Fix: https://github.com/an602/an602/issues/3848
         Yii::$app->view->theme->register();
 
         if (($exception = Yii::$app->getErrorHandler()->exception) === null) {

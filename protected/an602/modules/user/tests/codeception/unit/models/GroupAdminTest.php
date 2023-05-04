@@ -3,10 +3,10 @@
 namespace tests\codeception\unit\models;
 
 use an602\modules\user\models\GroupAdmin;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use yii\db\ActiveQuery;
 
-class GroupAdminTest extends An602DbTestCase
+class GroupAdminTest extends an602DbTestCase
 {
     public function testReturnTableName()
     {

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2019 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2019 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\ldap\commands;
@@ -89,8 +89,8 @@ class LdapController extends \yii\console\Controller
         $disabledUserCount = User::find()->andWhere(['auth_mode' => $ldapAuthClient->getId(), 'status' => User::STATUS_DISABLED])->count();
 
         $this->stdout("LDAP user count:\t\t" . $userCount . " users.\n");;
-        $this->stdout("An602 user count (active):\t" . $activeUserCount . " users.\n");
-        $this->stdout("An602 user count (disabled):\t" . $disabledUserCount . " users.\n\n");
+        $this->stdout("an602 user count (active):\t" . $activeUserCount . " users.\n");
+        $this->stdout("an602 user count (disabled):\t" . $disabledUserCount . " users.\n\n");
 
         return ExitCode::OK;
     }

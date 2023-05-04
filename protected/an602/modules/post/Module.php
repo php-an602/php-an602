@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\post;
@@ -20,7 +20,6 @@ use an602\modules\post\models\Post;
  */
 class Module extends ContentContainerModule
 {
-
     /**
      * @inheritdoc
      */
@@ -31,6 +30,12 @@ class Module extends ContentContainerModule
      * @var bool Automatically increase font size for short posts.
      */
     public bool $enableDynamicFontSize = false;
+
+    /**
+     * @since 1.15
+     * @var int collapsed post block height
+     */
+    public int $collapsedPostHeight = 300;
 
     /**
      * @inheritdoc
@@ -53,5 +58,4 @@ class Module extends ContentContainerModule
     {
         return [Post::class];
     }
-
 }

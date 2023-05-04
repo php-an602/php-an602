@@ -13,9 +13,9 @@ use an602\modules\content\widgets\WallEntryControls;
 use an602\modules\post\models\Post;
 use an602\modules\post\widgets\WallEntry;
 use an602\modules\ui\menu\WidgetMenuEntry;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class WallEntryOptionsTest extends An602DbTestCase
+class WallEntryOptionsTest extends an602DbTestCase
 {
     public function testConstructorWithBaseOptions()
     {

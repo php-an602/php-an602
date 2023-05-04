@@ -3,9 +3,9 @@
 namespace tests\codeception\unit;
 
 use an602\modules\user\widgets\UserPickerField;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class UserPickerFieldTest extends An602DbTestCase
+class UserPickerFieldTest extends an602DbTestCase
 {
     public function testItemKey()
     {

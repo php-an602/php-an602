@@ -3,8 +3,13 @@
 namespace an602\modules\user\widgets;
 
 use an602\modules\user\models\User;
+use an602\components\Widget;
 
-class UserWall extends \yii\base\Widget
+/**
+ * UserWall shows a user as wall entry, e.g. in the search
+ */
+
+class UserWall extends Widget
 {
 
     /**

@@ -4,7 +4,7 @@ return array (
   'Notify from {appName}. You were added to the group.' => 'แจ้งเตือนจาก {appName} คุณถูกเพิ่มเข้ากลุ่ม',
   'Notify from {appName}. You were removed from the group.' => 'แจ้งเตือนจาก {appName} คุณถูกลบออกจากกลุ่ม',
   'Receive Notifications for administrative events like available updates.' => 'รับการแจ้งเตือนสำหรับกิจกรรมการดูแลระบบ เช่น การอัปเดตที่มี',
-  'There is a new An602 Version ({version}) available.' => 'มี An602 เวอร์ชันใหม่ ({version}) ที่พร้อมใช้งาน',
+  'There is a new an602 Version ({version}) available.' => 'มี an602 เวอร์ชันใหม่ ({version}) ที่พร้อมใช้งาน',
   '{displayName} added you to group {groupName}' => '{displayName} เพิ่มคุณในกลุ่ม {groupName}',
   '{displayName} removed you from group {groupName}' => '{displayName} นำคุณออกจากกลุ่ม {groupName}',
 );

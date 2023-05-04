@@ -4,12 +4,12 @@ namespace tests\codeception\unit\modules\like;
 
 use Yii;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\modules\like\models\Like;
 use an602\modules\post\models\Post;
 
-class LikeTest extends An602DbTestCase
+class LikeTest extends an602DbTestCase
 {
 
     use Specify;

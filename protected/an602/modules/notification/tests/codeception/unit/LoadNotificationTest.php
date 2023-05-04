@@ -3,11 +3,11 @@
 namespace an602\modules\notification\tests\codeception\unit\rendering;
 
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use an602\modules\notification\models\Notification;
 use Codeception\Specify;
 
-class LoadNotificationTest extends An602DbTestCase
+class LoadNotificationTest extends an602DbTestCase
 {
 
     use Specify;

@@ -7,10 +7,10 @@ use an602\modules\post\models\Post;
 use an602\modules\space\models\Space;
 use an602\modules\stream\actions\Stream;
 use an602\modules\stream\models\StreamQuery;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use yii\base\Exception;
 
-class StreamQueryTest extends An602DbTestCase
+class StreamQueryTest extends an602DbTestCase
 {
     public $space;
 

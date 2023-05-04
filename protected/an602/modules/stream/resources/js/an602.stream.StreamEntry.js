@@ -1,7 +1,7 @@
 /*
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
@@ -328,7 +328,7 @@ an602.module('stream.StreamEntry', function (module, require, $) {
         var that = this;
         this.loader();
         client.post(evt.url).then(function (data) {
-            that.stream().init();
+            that.reload();
             module.log.info(data.message, true);
         }).catch(function (e) {
             module.log.error(e, true);

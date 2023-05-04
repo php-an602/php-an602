@@ -6,9 +6,9 @@ use an602\modules\post\models\Post;
 use an602\modules\space\models\Space;
 use an602\modules\topic\models\Topic;
 use an602\modules\topic\widgets\TopicPicker;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class TopicPickerTest extends An602DbTestCase
+class TopicPickerTest extends an602DbTestCase
 {
     /**
      * Make sure users with create topic permission sees topic picker

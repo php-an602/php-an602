@@ -45,7 +45,7 @@ return [
     'Base URL needs to begin with http:// or https://' => '',
     'Configure' => '',
     'Deactivate' => '',
-    'Default group for administrators of this An602 Installation' => '',
+    'Default group for administrators of this an602 Installation' => '',
     'Default group for all newly registered users of the network' => '',
     'Delete all' => '',
     'Delete selected rows' => '',

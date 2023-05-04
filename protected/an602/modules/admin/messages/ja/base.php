@@ -25,7 +25,7 @@ return array (
   'Cronjobs' => 'Cronジョブ',
   'Deactivate' => '無効化',
   'Default' => 'デフォルト',
-  'Default group for administrators of this An602 Installation' => 'このAn602の管理者のデフォルトグループ',
+  'Default group for administrators of this an602 Installation' => 'このan602の管理者のデフォルトグループ',
   'Default group for all newly registered users of the network' => '新しく登録されたユーザーすべてのデフォルトグループ',
   'Delete all' => 'すべて削除',
   'Delete selected rows' => '選択した行を削除します',

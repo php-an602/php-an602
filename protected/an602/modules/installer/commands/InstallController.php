@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\installer\commands;
@@ -24,9 +24,9 @@ use an602\libs\DynamicConfig;
  * Console Install
  * 
  * Example usage:
- *   php yii installer/write-db-config "$AN602_DB_HOST" "$AN602_DB_NAME" "$AN602_DB_USER" "$AN602_DB_PASSWORD"
+ *   php yii installer/write-db-config "$an602_DB_HOST" "$an602_DB_NAME" "$an602_DB_USER" "$an602_DB_PASSWORD"
  *   php yii installer/install-db
- *   php yii installer/write-site-config "$AN602_NAME" "$AN602_EMAIL"
+ *   php yii installer/write-site-config "$an602_NAME" "$an602_EMAIL"
  *   php yii installer/create-admin-account
  * 
  */
@@ -133,7 +133,7 @@ class InstallController extends Controller
     /**
      * Writes essential site settings to config file and sets installed state
      */
-    public function actionWriteSiteConfig($site_name='An602', $site_email='an602@example.com'){
+    public function actionWriteSiteConfig($site_name='an602', $site_email='an602@example.com'){
         $this->stdout("Install Site:\n\n", Console::FG_YELLOW);
         InitialData::bootstrap();
 

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\components\mail;
@@ -68,7 +68,7 @@ class Mailer extends \yii\symfonymailer\Mailer
     {
         $message = parent::compose($view, $params);
 
-        // Set An602 default from values
+        // Set an602 default from values
         if (empty($message->getFrom())) {
             $message->setFrom([Yii::$app->settings->get('mailer.systemEmailAddress') => Yii::$app->settings->get('mailer.systemEmailName')]);
             if ($replyTo = Yii::$app->settings->get('mailer.systemEmailReplyTo')) {

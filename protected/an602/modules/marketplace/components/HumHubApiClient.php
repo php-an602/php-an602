@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace\components;
@@ -16,7 +16,7 @@ use Yii;
  *
  * @since 1.5
  */
-class An602ApiClient extends HttpClient
+class an602ApiClient extends HttpClient
 {
     /**
      * @inheritDoc

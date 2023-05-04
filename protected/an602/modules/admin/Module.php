@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\admin;
@@ -39,7 +39,7 @@ class Module extends \an602\components\Module
     public $resourcesPath = 'resources';
 
     /**
-     * @var boolean check daily for new An602 version
+     * @var boolean check daily for new an602 version
      */
     public $dailyCheckForNewVersion = true;
 

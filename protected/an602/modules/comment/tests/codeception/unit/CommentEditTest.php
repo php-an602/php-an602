@@ -1,18 +1,18 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
 namespace tests\codeception\unit\modules\content;
 
 use an602\modules\comment\models\Comment;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use an602\modules\post\models\Post;
 
-class CommentEditTest extends An602DbTestCase
+class CommentEditTest extends an602DbTestCase
 {
 
     public function testNewCommentIsNotEdited()
@@ -51,7 +51,7 @@ class CommentEditTest extends An602DbTestCase
         $comment->message = 'Updated Message';
         $this->assertTrue($comment->save());
 
-        // See https://github.com/php-an602/php-an602/issues/4381
+        // See https://github.com/an602/an602/issues/4381
         $comment->refresh();
         $this->assertTrue($comment->isUpdated());
 

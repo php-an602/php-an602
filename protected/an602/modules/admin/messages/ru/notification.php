@@ -21,7 +21,7 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'There is a new An602 Version ({version}) available.' => 'Доступна новая версия ({version}) An602.',
+    'There is a new an602 Version ({version}) available.' => 'Доступна новая версия ({version}) an602.',
     'Administrative' => 'Административные',
     'Notify from {appName}. You were added to the group.' => 'Уведомление от {appName}. Вы были добавлены в группу.',
     'Notify from {appName}. You were removed from the group.' => 'Уведомление от {appName}. Вы были удалены из группы.',

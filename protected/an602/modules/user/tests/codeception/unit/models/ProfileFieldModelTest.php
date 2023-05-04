@@ -6,10 +6,10 @@ use an602\modules\user\models\fieldtype\Number;
 use an602\modules\user\models\fieldtype\Text;
 use an602\modules\user\models\ProfileField;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use yii\db\ActiveQuery;
 
-class ProfileFieldModelTest extends An602DbTestCase
+class ProfileFieldModelTest extends an602DbTestCase
 {
     public function testReturnTableName()
     {

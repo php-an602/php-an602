@@ -1,20 +1,20 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
 namespace tests\codeception\unit\modules\content;
 
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use an602\modules\post\models\Post;
 
 use an602\modules\space\models\Space;
 use an602\modules\content\models\Content;
 
-class ContentEditTest extends An602DbTestCase
+class ContentEditTest extends an602DbTestCase
 {
 
     public function testNewContentIsNotEdited()

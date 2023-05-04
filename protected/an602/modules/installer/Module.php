@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\installer;
@@ -64,7 +64,7 @@ class Module extends \an602\components\Module
 
         // Block installer, when it's marked as installed
         if (Yii::$app->params['installed']) {
-            throw new HttpException(500, 'An602 is already installed!');
+            throw new HttpException(500, 'an602 is already installed!');
         }
 
         Yii::$app->controller->enableCsrfValidation = false;

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2019 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2019 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\ldap\authclient;
@@ -544,7 +544,7 @@ class LdapAuth extends BaseFormAuth implements AutoSyncUsers, SyncAttributes, Ap
     public function setNormalizeUserAttributeMap($normalizeUserAttributeMap)
     {
         // This method is called if an additional attribute mapping is specified in the configuration file
-        // So automatically merge An602 auto mapping with the given one
+        // So automatically merge an602 auto mapping with the given one
         $this->init(); // defaultNormalizeAttributeMap is available after init
         parent::setNormalizeUserAttributeMap(ArrayHelper::merge($this->defaultNormalizeUserAttributeMap(), $normalizeUserAttributeMap));
     }

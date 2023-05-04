@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\admin\notifications;
@@ -12,12 +12,12 @@ use Yii;
 use yii\helpers\Url;
 use yii\bootstrap\Html;
 use an602\modules\notification\components\BaseNotification;
-use an602\modules\admin\libs\An602API;
+use an602\modules\admin\libs\an602API;
 
 /**
- * An602UpdateNotification
+ * an602UpdateNotification
  *
- * Notifies about new An602 Version
+ * Notifies about new an602 Version
  *
  * @since 0.11
  */
@@ -58,9 +58,9 @@ class NewVersionAvailable extends BaseNotification
     /**
      * @inheritdoc
      */
-    public function getLatestAn602Version()
+    public function getLatestan602Version()
     {
-        return An602API::getLatestAn602Version();
+        return an602API::getLatestan602Version();
     }
 
     /**
@@ -68,7 +68,7 @@ class NewVersionAvailable extends BaseNotification
      */
     public function html()
     {
-        return Yii::t('AdminModule.notification', "There is a new An602 Version ({version}) available.", ['version' => Html::tag('strong', $this->getLatestAn602Version())]);
+        return Yii::t('AdminModule.notification', "There is a new an602 Version ({version}) available.", ['version' => Html::tag('strong', $this->getLatestan602Version())]);
     }
 
 }

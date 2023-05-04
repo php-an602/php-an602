@@ -2,11 +2,11 @@
 
 namespace tests\codeception\unit;
 
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use an602\modules\user\models\Group;
 use Yii;
 
-class GroupTest extends An602DbTestCase
+class GroupTest extends an602DbTestCase
 {
     public function testRegistrationGroupsEnabled()
     {

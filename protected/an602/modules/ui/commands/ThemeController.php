@@ -1,8 +1,9 @@
 <?php
+
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\ui\commands;
@@ -20,7 +21,6 @@ use yii\helpers\Console;
  */
 class ThemeController extends \yii\console\Controller
 {
-
     /**
      * {@inheritdoc}
      */
@@ -74,8 +74,7 @@ class ThemeController extends \yii\console\Controller
         $theme->activate();
 
         $this->stdout("\nSuccessfully switched to theme: \n", Console::BOLD);
-        $this->stdout(Yii::$app->view->theme->name. "\n\n", Console::FG_GREEN);
+        $this->stdout(Yii::$app->view->theme->name . "\n\n", Console::FG_GREEN);
         return ExitCode::OK;
     }
-
 }

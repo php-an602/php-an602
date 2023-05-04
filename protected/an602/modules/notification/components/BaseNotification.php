@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\notification\components;
@@ -127,6 +127,18 @@ abstract class BaseNotification extends SocialActivity
     protected function category()
     {
         return null;
+    }
+
+    /**
+     * Checks if notification is still valid before sending
+     *
+     * @return bool
+     *
+     * @since 1.15
+     */
+    public function isValid()
+    {
+        return true;
     }
 
     /**

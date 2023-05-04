@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\content\widgets\richtext\converter;
@@ -22,7 +22,7 @@ use Yii;
 use yii\base\InvalidArgumentException;
 
 /**
- * This class serves as base class for richtext converters used to convert An602 richtext to other formats. The base
+ * This class serves as base class for richtext converters used to convert an602 richtext to other formats. The base
  * converter class extends GithubMarkdown markdown parser to support:
  *
  *  - `onBeforeParse` and `onAfterparse` events

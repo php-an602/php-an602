@@ -1,6 +1,6 @@
 /*
  * Loader v0.1 by @andystrobel
- * Copyright 2015 An602
+ * Copyright 2015 an602
  *
  * Show loader
  * @deprecated since v1.2

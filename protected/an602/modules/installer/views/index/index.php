@@ -9,8 +9,8 @@ use yii\helpers\Url;
     <div class="panel-body text-center">
         <br>
         <br>
-        <p class="lead"><?php echo Yii::t('InstallerModule.base', '<strong>Welcome</strong> to PHP-AN602<br>Your <strong>C</strong>oders<strong>E</strong>xchange Network ToolBox'); ?></p>
-        <p><?php echo Yii::t('InstallerModule.base', 'This wizard will install and configure your personal PHP-AN602 <strong>C</strong>oders<strong>E</strong>xchange node.<br><br>To continue, click Next.'); ?></p>
+        <p class="lead"><?php echo Yii::t('InstallerModule.base', '<strong>Welcome</strong> to an602<br>Your Social Network Toolbox'); ?></p>
+        <p><?php echo Yii::t('InstallerModule.base', 'This wizard will install and configure your own an602 instance.<br><br>To continue, click Next.'); ?></p>
         <br>
         <hr>
         <br>

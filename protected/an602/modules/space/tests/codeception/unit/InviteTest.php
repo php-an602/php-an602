@@ -3,11 +3,11 @@
 namespace tests\codeception\unit\modules\space;
 
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\modules\space\models\Space;
 
-class InviteTest extends An602DbTestCase
+class InviteTest extends an602DbTestCase
 {
 
     use Specify;

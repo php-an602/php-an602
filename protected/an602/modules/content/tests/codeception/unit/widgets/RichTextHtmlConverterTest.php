@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
@@ -15,10 +15,10 @@ use an602\modules\content\widgets\richtext\RichText;
 use an602\modules\file\models\File;
 use an602\modules\post\models\Post;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
 
-class RichTextHtmlConverterTest extends An602DbTestCase
+class RichTextHtmlConverterTest extends an602DbTestCase
 {
     /*
      * Links
@@ -30,22 +30,22 @@ class RichTextHtmlConverterTest extends An602DbTestCase
     public function testConvertLinkToHtml()
     {
         $this->assertConversionResult(
-            'Test [Link](https://www.php-an602.coders.exchange/de)',
-            '<p>Test <a href="https://www.php-an602.coders.exchange/de" target="_blank" rel="nofollow noreferrer noopener">Link</a></p>');
+            'Test [Link](https://www.an602.com/de)',
+            '<p>Test <a href="https://www.an602.com/de" target="_blank" rel="nofollow noreferrer noopener">Link</a></p>');
     }
 
     public function testConvertLinkWithCustomTargetToHtml()
     {
         $this->assertConversionResult(
-            'Test [Link](https://www.php-an602.coders.exchange/de)',
-            '<p>Test <a href="https://www.php-an602.coders.exchange/de" target="_self" rel="nofollow noreferrer noopener">Link</a></p>',
+            'Test [Link](https://www.an602.com/de)',
+            '<p>Test <a href="https://www.an602.com/de" target="_self" rel="nofollow noreferrer noopener">Link</a></p>',
             [RichTextToHtmlConverter::OPTION_LINK_TARGET => '_self']);
     }
 
     public function testConvertLinkAsText()
     {
         $this->assertConversionResult(
-            'Test [Link](https://www.php-an602.coders.exchange/de)',
+            'Test [Link](https://www.an602.com/de)',
             '<p>Test Link</p>',
             [RichTextToHtmlConverter::OPTION_LINK_AS_TEXT => '_self']);
     }
@@ -53,8 +53,8 @@ class RichTextHtmlConverterTest extends An602DbTestCase
     public function testConvertLinkWithoutTargetToHtml()
     {
         $this->assertConversionResult(
-            'Test [Link](https://www.php-an602.coders.exchange/de)',
-            '<p>Test <a href="https://www.php-an602.coders.exchange/de">Link</a></p>',
+            'Test [Link](https://www.an602.com/de)',
+            '<p>Test <a href="https://www.an602.com/de">Link</a></p>',
             [RichTextToHtmlConverter::OPTION_PREV_LINK_TARGET => true]);
     }
 
@@ -65,8 +65,8 @@ class RichTextHtmlConverterTest extends An602DbTestCase
     public function testConvertLinkWithTitleToHtml()
     {
         $this->assertConversionResult(
-            'Test [Link](https://www.php-an602.coders.exchange/de "Link Title")',
-            '<p>Test <a href="https://www.php-an602.coders.exchange/de" target="_blank" title="Link Title" rel="nofollow noreferrer noopener">Link</a></p>');
+            'Test [Link](https://www.an602.com/de "Link Title")',
+            '<p>Test <a href="https://www.an602.com/de" target="_blank" title="Link Title" rel="nofollow noreferrer noopener">Link</a></p>');
     }
 
     /**
@@ -75,8 +75,8 @@ class RichTextHtmlConverterTest extends An602DbTestCase
     public function testConvertLinkWithSpecialCharToHtml()
     {
         $this->assertConversionResult(
-            'Test [Link &< Link](https://www.php-an602.coders.exchange/de)',
-            '<p>Test <a href="https://www.php-an602.coders.exchange/de" target="_blank" rel="nofollow noreferrer noopener">Link &amp;&lt; Link</a></p>');
+            'Test [Link &< Link](https://www.an602.com/de)',
+            '<p>Test <a href="https://www.an602.com/de" target="_blank" rel="nofollow noreferrer noopener">Link &amp;&lt; Link</a></p>');
     }
 
     /**
@@ -146,30 +146,30 @@ class RichTextHtmlConverterTest extends An602DbTestCase
     public function testConvertImageToHtml()
     {
         $this->assertConversionResult(
-            'Test ![Alt Text](https://www.php-an602.coders.exchange/static/img/logo.png)',
-            '<p>Test <img src="https://www.php-an602.coders.exchange/static/img/logo.png" alt="Alt Text"></p>');
+            'Test ![Alt Text](https://www.an602.com/static/img/logo.png)',
+            '<p>Test <img src="https://www.an602.com/static/img/logo.png" alt="Alt Text"></p>');
     }
 
     public function testConvertImageAsLink()
     {
         $this->assertConversionResult(
-            'Test ![Alt Text](https://www.php-an602.coders.exchange/static/img/logo.png)',
-            '<p>Test <a href="https://www.php-an602.coders.exchange/static/img/logo.png" target="_blank" rel="nofollow noreferrer noopener">Alt Text</a></p>',
+            'Test ![Alt Text](https://www.an602.com/static/img/logo.png)',
+            '<p>Test <a href="https://www.an602.com/static/img/logo.png" target="_blank" rel="nofollow noreferrer noopener">Alt Text</a></p>',
             [RichTextToHtmlConverter::OPTION_IMAGE_AS_LINK => true]);
     }
 
     public function testConvertImageWithoutTitleAsLink()
     {
         $this->assertConversionResult(
-            'Test ![](https://www.php-an602.coders.exchange/static/img/logo.png)',
-            '<p>Test <a href="https://www.php-an602.coders.exchange/static/img/logo.png" target="_blank" rel="nofollow noreferrer noopener">https://www.php-an602.coders.exchange/static/img/logo.png</a></p>',
+            'Test ![](https://www.an602.com/static/img/logo.png)',
+            '<p>Test <a href="https://www.an602.com/static/img/logo.png" target="_blank" rel="nofollow noreferrer noopener">https://www.an602.com/static/img/logo.png</a></p>',
             [RichTextToHtmlConverter::OPTION_IMAGE_AS_LINK => true]);
     }
 
     public function testConvertImageAsText()
     {
         $this->assertConversionResult(
-            'Test ![Alt Text](https://www.php-an602.coders.exchange/static/img/logo.png)',
+            'Test ![Alt Text](https://www.an602.com/static/img/logo.png)',
             '<p>Test Alt Text</p>',
             [RichTextToHtmlConverter::OPTION_IMAGE_AS_LINK => true, RichTextToHtmlConverter::OPTION_LINK_AS_TEXT => true]);
     }
@@ -177,8 +177,8 @@ class RichTextHtmlConverterTest extends An602DbTestCase
     public function testConvertImageWithoutTitleAsText()
     {
         $this->assertConversionResult(
-            'Test ![](https://www.php-an602.coders.exchange/static/img/logo.png)',
-            '<p>Test https://www.php-an602.coders.exchange/static/img/logo.png</p>',
+            'Test ![](https://www.an602.com/static/img/logo.png)',
+            '<p>Test https://www.an602.com/static/img/logo.png</p>',
             [RichTextToHtmlConverter::OPTION_IMAGE_AS_LINK => true, RichTextToHtmlConverter::OPTION_LINK_AS_TEXT => true]);
     }
 
@@ -188,8 +188,8 @@ class RichTextHtmlConverterTest extends An602DbTestCase
     public function testConvertImageWithSpecialCharToHtml()
     {
         $this->assertConversionResult(
-            'Test ![Alt &< Text](https://www.php-an602.coders.exchange/static/img/logo.png)',
-            '<p>Test <img src="https://www.php-an602.coders.exchange/static/img/logo.png" alt="Alt &amp;&lt; Text"></p>');
+            'Test ![Alt &< Text](https://www.an602.com/static/img/logo.png)',
+            '<p>Test <img src="https://www.an602.com/static/img/logo.png" alt="Alt &amp;&lt; Text"></p>');
     }
 
     /**

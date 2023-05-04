@@ -27,7 +27,7 @@ The license was successfully removed!
 
 ' => '---  Schakel module: {moduleId}  in ---',
   '<strong>Activate</strong> your Professional Edition' => '<strong>Activeer</strong> uw Professional-editie',
-  'A new update is available (An602 %version%)!' => 'Er is een nieuwe versie beschikbaar (An602 %version%)!',
+  'A new update is available (an602 %version%)!' => 'Er is een nieuwe versie beschikbaar (an602 %version%)!',
   'Add Licence Key' => 'Licentiesleutel toevoegen',
   'Add purchased module by licence key' => 'Aangeschafte module toevoegen met de licentie code',
   'All' => 'Alle',
@@ -38,8 +38,8 @@ The license was successfully removed!
   'Categories' => 'Categorieën',
   'Changelog' => 'Wijzigingslog',
   'Community' => 'Gemeenschap',
-  'Could not connect to An602 API!
-' => 'Kan geen verbinding maken met An602 API!',
+  'Could not connect to an602 API!
+' => 'Kan geen verbinding maken met an602 API!',
   'Could not connect to licence server!' => 'Kan geen verbinding maken met de licentieserver!',
   'Could not extract module!' => 'Kon module niet uitpakken!',
   'Could not remove old module path!' => 'Kan het oude modulepad niet verwijderen!',
@@ -47,7 +47,7 @@ The license was successfully removed!
   'Download of module failed!' => 'Download van module mislukt!',
   'Edit licence' => 'Licentie bewerken',
   'Featured' => 'Uitgelicht',
-  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => 'Als deze module bovendien is gemarkeerd als <strong>"Community" </strong>, wordt deze niet getest of gecontroleerd door het An602-projectteam.',
+  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => 'Als deze module bovendien is gemarkeerd als <strong>"Community" </strong>, wordt deze niet getest of gecontroleerd door het an602-projectteam.',
   'Install' => 'Installeren',
   'Installed' => 'Geïnstalleerd',
   'Installing module...' => 'Module installeren...',
@@ -88,7 +88,7 @@ The license was successfully removed!
   'Save and update' => 'Opslaan en bijwerken',
   'Stop updating' => 'Stop met bijwerken',
   'Tags' => 'Labels',
-  'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'Het An602-project garandeert niet de functionaliteit, kwaliteit of de continue ontwikkeling van deze module.',
+  'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'Het an602-project garandeert niet de functionaliteit, kwaliteit of de continue ontwikkeling van deze module.',
   'Third-party' => 'Derden',
   'Third-party Modules are not covered by Professional Edition agreements.' => 'Modules van derden vallen niet onder de Professional Edition-overeenkomsten.',
   'Third-party disclaimer' => 'Derde partij disclamer',
@@ -97,5 +97,5 @@ The license was successfully removed!
   'Update all' => 'Werk alles bij',
   'Upgrade to Professional Edition' => 'Upgrade naar Professional Edition',
   'Version:' => 'Versie:',
-  'Your An602 installation is up to date!' => 'Uw An602-software is geheel bijgewerkt.',
+  'Your an602 installation is up to date!' => 'Uw an602-software is geheel bijgewerkt.',
 );

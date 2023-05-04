@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2016 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2016 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\file\models;
@@ -11,7 +11,7 @@ namespace an602\modules\file\models;
 use an602\modules\file\libs\FileHelper;
 
 /**
- * FileCompat provides an compatibility layer for older An602 Version (1.1 and prior).
+ * FileCompat provides an compatibility layer for older an602 Version (1.1 and prior).
  *
  * @since 1.2
  * @author Luke

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\components;
@@ -52,7 +52,7 @@ class AssetManager extends \yii\web\AssetManager
     /**
      * @inheritDoc
      *
-     * Adds defer support for non An602 AssetBundles by $defer property and adds dependency to [[CoreBundleAsset]]
+     * Adds defer support for non an602 AssetBundles by $defer property and adds dependency to [[CoreBundleAsset]]
      *
      * @param string $name
      * @param array $config
@@ -74,7 +74,7 @@ class AssetManager extends \yii\web\AssetManager
             // Force dependency to CoreBundleAsset
             array_unshift($bundle->depends, CoreBundleAsset::class);
 
-            // Allows to add defer to non An602 AssetBundles
+            // Allows to add defer to non an602 AssetBundles
             if(property_exists($bundle,'defer') && $bundle->defer) {
                 $bundle->jsOptions['defer'] = 'defer';
             }

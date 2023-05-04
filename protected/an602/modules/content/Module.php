@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2016 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2016 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\content;
@@ -78,7 +78,7 @@ class Module extends \an602\components\Module
      * If true richtext extensions (oembed, emojis, mentionings) of legacy richtext (< v1.3) are supported.
      *
      * Note: In case the `richtextCompatMode` module db setting is also set, both settings need to be activated. New
-     * installations since An602 1.8 deactivate the compat mode by default by module db setting.
+     * installations since an602 1.8 deactivate the compat mode by default by module db setting.
      *
      * @var bool
      * @since 1.8

@@ -4,13 +4,13 @@ namespace tests\codeception\unit\modules\content;
 
 use an602\modules\user\models\User;
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use an602\modules\post\models\Post;
 
 use an602\modules\space\models\Space;
 use an602\modules\content\models\Content;
 
-class ReadableContentQueryTest extends An602DbTestCase
+class ReadableContentQueryTest extends an602DbTestCase
 {
 
     /**

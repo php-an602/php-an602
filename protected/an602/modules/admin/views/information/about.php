@@ -18,7 +18,7 @@ use yii\helpers\Html;
 <?php elseif ($isUpToDate): ?>
     <div class="alert alert-info">
         <p>
-            <strong><?= Yii::t('AdminModule.information', 'This An602 installation is up to date!'); ?></strong><br />
+            <strong><?= Yii::t('AdminModule.information', 'This an602 installation is up to date!'); ?></strong><br />
             <?= Html::a("https://www.an602.org", "https://www.an602.org"); ?>
         </p>
     </div>
@@ -28,12 +28,12 @@ use yii\helpers\Html;
 
 <?php if (YII_DEBUG) : ?>
     <p class="alert alert-danger">
-        <strong><?= Yii::t('AdminModule.information', 'An602 is currently in debug mode. Disable it when running on production!'); ?></strong><br>
+        <strong><?= Yii::t('AdminModule.information', 'an602 is currently in debug mode. Disable it when running on production!'); ?></strong><br>
         <?= Yii::t('AdminModule.information', 'See installation manual for more details.'); ?>
     </p>
 <?php endif; ?>
 
 <hr>
-© <?= date("Y") ?> Brandon Maintenance Management, LLC
+© <?= date("Y") ?> PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
 &middot;
 <?= Html::a(Yii::t('AdminModule.information', 'Licences'), "https://www.an602.org/licences", ['target' => '_blank']); ?>

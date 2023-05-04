@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2015 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2015 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\installer\forms;
@@ -86,7 +86,7 @@ class DatabaseForm extends \yii\base\Model
             'port' => Yii::t('InstallerModule.base', 'Optional: Port of your MySQL Database Server. Leave empty to use default port.'),
             'username' => Yii::t('InstallerModule.base', 'Your MySQL username'),
             'password' => Yii::t('InstallerModule.base', 'Your MySQL password.'),
-            'database' => Yii::t('InstallerModule.base', 'The name of the database you want to run An602 in.'),
+            'database' => Yii::t('InstallerModule.base', 'The name of the database you want to run an602 in.'),
         ];
     }
 

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\ui\view\components;
@@ -61,7 +61,7 @@ class View extends \yii\web\View
 
     /**
      * A viewContext is a simple string value which usually is set by a controller to define the context of a resulting view.
-     * If a viewContext is set, it will be sent to the client in case of pjax and full page loads. The An602 Client API
+     * If a viewContext is set, it will be sent to the client in case of pjax and full page loads. The an602 Client API
      * will then use the viewContext in all ajax (non pjax) requests as HTTP request header `AN602-VIEW-CONTEXT`
      * until the next pjax or full page load.
      *

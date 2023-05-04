@@ -10,12 +10,12 @@ use yii\bootstrap\Html;
     </div>
 
     <div class="panel-body">
-        <p><?= Yii::t('InstallerModule.base', 'An602 uses cron jobs to execute scheduled or to run potentially heavy tasks such as sending out email summaries and notifications or optimizing the search index.'); ?></p>
+        <p><?= Yii::t('InstallerModule.base', 'an602 uses cron jobs to execute scheduled or to run potentially heavy tasks such as sending out email summaries and notifications or optimizing the search index.'); ?></p>
         <p>
             <strong><?= Yii::t('InstallerModule.base', 'Installation Example:') ?></strong>
         </p>
         <p>
-            <?= Yii::t('InstallerModule.base', 'Open the crontab of An602/PHP process user e.g. <code>{user}</code>.', ['user' => get_current_user()]) ?>
+            <?= Yii::t('InstallerModule.base', 'Open the crontab of an602/PHP process user e.g. <code>{user}</code>.', ['user' => get_current_user()]) ?>
             <br>
             <kbd>
                 crontab -e -u <?= get_current_user() ?>

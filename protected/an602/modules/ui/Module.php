@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\ui;
@@ -17,7 +17,6 @@ use Yii;
  */
 class Module extends \an602\components\Module
 {
-
     /**
      * @inheritdoc
      */
@@ -47,7 +46,7 @@ class Module extends \an602\components\Module
     public static function getModuleInstance()
     {
         /* @var $module static*/
-        $module =  Yii::$app->getModule('ui');
+        $module = Yii::$app->getModule('ui');
         return $module;
     }
 
@@ -60,7 +59,6 @@ class Module extends \an602\components\Module
         return $this->iconAlias[$name] ?? $name;
     }
 
-
     /**
      * @inheritdoc
      */
@@ -68,5 +66,4 @@ class Module extends \an602\components\Module
     {
         return Yii::t('UiModule.base', 'User Interface');
     }
-
 }

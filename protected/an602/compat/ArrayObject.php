@@ -427,7 +427,7 @@ class ArrayObject implements IteratorAggregate, ArrayAccess, Countable
                 case 'protectedProperties':
 //                    continue;
 
-                    // AN602 MODIFICATION
+                    // an602 MODIFICATION
                     continue 2;
                 default:
                     $this->__set($k, $v);

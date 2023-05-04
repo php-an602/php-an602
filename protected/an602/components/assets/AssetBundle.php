@@ -12,7 +12,7 @@ use an602\modules\ui\view\components\View;
 
 
 /**
- * This base asset bundle class adds some additional properties as well ass default loading behavior for An602 assets.
+ * This base asset bundle class adds some additional properties as well ass default loading behavior for an602 assets.
  *
  * Some of the properties will affect settings as `jsOptions` or `publishOptions`. Note that settings defined
  * directly within those option arrays will have priority over the settings defined as property.

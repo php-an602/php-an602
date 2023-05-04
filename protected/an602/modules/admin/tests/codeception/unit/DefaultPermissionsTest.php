@@ -7,9 +7,9 @@ use an602\modules\content\components\ContentContainerDefaultPermissionManager;
 use an602\modules\like\permissions\CanLike;
 use an602\modules\space\models\Space;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class DefaultPermissionsTest extends An602DbTestCase
+class DefaultPermissionsTest extends an602DbTestCase
 {
 
     public function testSetDefaultSpacePermission()

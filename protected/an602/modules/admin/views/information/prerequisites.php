@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use an602\modules\admin\widgets\PrerequisitesList;
 ?>
-<p><?= Yii::t('AdminModule.information', 'Checking An602 software prerequisites.'); ?></p>
+<p><?= Yii::t('AdminModule.information', 'Checking an602 software prerequisites.'); ?></p>
 
 <?= PrerequisitesList::widget(); ?>
 <br>

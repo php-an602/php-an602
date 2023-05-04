@@ -5,9 +5,9 @@ namespace tests\codeception\unit;
 use an602\modules\post\models\Post;
 use an602\modules\space\models\Space;
 use an602\modules\topic\models\Topic;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class TopicTest extends An602DbTestCase
+class TopicTest extends an602DbTestCase
 {
 
     /**

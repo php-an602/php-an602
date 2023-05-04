@@ -8,7 +8,7 @@ use yii\helpers\Url;
     <div class="pull-left" style="padding-right:24px;">
         <img src="<?= Yii::getAlias('@web-static/img/an602_pro.jpg'); ?>" style="height:124px;">
     </div>
-    <span style="font-size:36px">An602&nbsp;&nbsp;</span><span
+    <span style="font-size:36px">an602&nbsp;&nbsp;</span><span
         style="font-size:24px">Professional Edition - SaaS</span><br/>
     <span
         style="font-size:18px"><?= Yii::t('MarketplaceModule.base', 'Version:'); ?> <?= Yii::$app->version ?></span><br/>

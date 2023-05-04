@@ -19,7 +19,7 @@
 return [
     'Administrative' => 'Administativa',
     'Receive Notifications for administrative events like available updates.' => 'Dostávat upozornění na administrativní události, jako například dostupné aktualizace.',
-    'There is a new An602 Version ({version}) available.' => 'Je dostupná nová verze  ({version}) An602u.',
+    'There is a new an602 Version ({version}) available.' => 'Je dostupná nová verze  ({version}) an602u.',
     'Notify from {appName}. You were added to the group.' => '',
     'Notify from {appName}. You were removed from the group.' => '',
     '{displayName} added you to group {groupName}' => '',

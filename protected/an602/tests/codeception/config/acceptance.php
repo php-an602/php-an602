@@ -18,13 +18,13 @@ $testConfig = [
         'installed' => true,
         'settings' => [
             'core' => [
-                'name' => 'An602 Test',
+                'name' => 'an602 Test',
                 'baseUrl' => 'http://localhost:8080',
             ]
         ],
         'enablePjax' => true
     ],
-    
+
 ];
 
 defined('YII_APP_BASE_PATH') or define('YII_APP_BASE_PATH', dirname(dirname(dirname(dirname(__DIR__)))));

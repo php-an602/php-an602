@@ -3,9 +3,9 @@
 namespace tests\codeception\unit;
 
 use an602\libs\EmojiMap;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class EmojiTest extends An602DbTestCase
+class EmojiTest extends an602DbTestCase
 {
     /**
      * Make sure users with create topic permission sees topic picker

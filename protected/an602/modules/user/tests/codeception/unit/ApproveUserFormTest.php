@@ -5,11 +5,11 @@ namespace tests\codeception\unit;
 use an602\modules\admin\models\forms\ApproveUserForm;
 use an602\modules\admin\models\forms\AuthenticationSettingsForm;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 use yii\web\NotFoundHttpException;
 
-class ApproveUserFormTest extends An602DbTestCase
+class ApproveUserFormTest extends an602DbTestCase
 {
     /**
      * @var User

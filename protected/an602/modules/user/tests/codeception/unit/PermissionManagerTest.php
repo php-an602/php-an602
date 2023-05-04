@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace tests\codeception\unit;
@@ -13,9 +13,9 @@ use an602\modules\admin\permissions\ManageSpaces;
 use an602\modules\admin\permissions\ManageUsers;
 use an602\modules\admin\permissions\SeeAdminInformation;
 use an602\modules\user\tests\codeception\unit\PermissionManagerMock;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class PermissionManagerTest extends An602DbTestCase
+class PermissionManagerTest extends an602DbTestCase
 {
 
     /**

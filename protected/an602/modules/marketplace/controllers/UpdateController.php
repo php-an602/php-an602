@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2019 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2019 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace\controllers;
@@ -59,7 +59,7 @@ class UpdateController extends Controller
             if (!empty($moduleInfo['isPaid'])) {
                 $error = Yii::t('AdminModule.modules', 'License not found or expired. Please contact the module publisher.');
             } else {
-                $error = 'Could not determine module download url from An602 API response.';
+                $error = 'Could not determine module download url from an602 API response.';
                 Yii::error($error, 'marketplace');
             }
             throw new HttpException(500, $error);

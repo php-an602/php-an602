@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2021 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2021 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace tests\codeception\unit\modules\content\widgets;
@@ -11,21 +11,21 @@ use an602\modules\content\widgets\richtext\converter\RichTextToEmailHtmlConverte
 use an602\modules\content\widgets\richtext\converter\RichTextToHtmlConverter;
 use an602\modules\file\actions\DownloadAction;
 use an602\modules\file\models\File;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class RichTextEmailHtmlConverterTest extends An602DbTestCase
+class RichTextEmailHtmlConverterTest extends an602DbTestCase
 {
     public function testConvertLinkToHtml()
     {
         $this->assertConversionResult(
-            'Test[Link](https://www.php-an602.coders.exchange/de)Test',
-            '<p>Test<a href="https://www.php-an602.coders.exchange/de" target="_blank" rel="nofollow noreferrer noopener"> Link </a>Test</p>');
+            'Test[Link](https://www.an602.com/de)Test',
+            '<p>Test<a href="https://www.an602.com/de" target="_blank" rel="nofollow noreferrer noopener"> Link </a>Test</p>');
     }
 
     public function testConvertLinkAsTextToHtml()
     {
         $this->assertConversionResult(
-            'Test[Link](https://www.php-an602.coders.exchange/de)Test',
+            'Test[Link](https://www.an602.com/de)Test',
             '<p>Test Link Test</p>', [
                 RichTextToHtmlConverter::OPTION_LINK_AS_TEXT => true,
             ]);

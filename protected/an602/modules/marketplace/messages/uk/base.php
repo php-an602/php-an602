@@ -27,7 +27,7 @@ The license was successfully removed!
 
 ' => '',
   '<strong>Activate</strong> your Professional Edition' => '',
-  'A new update is available (An602 %version%)!' => '',
+  'A new update is available (an602 %version%)!' => '',
   'Add Licence Key' => '',
   'Add purchased module by licence key' => '',
   'All' => 'Всі',
@@ -38,7 +38,7 @@ The license was successfully removed!
   'Categories' => '',
   'Changelog' => '',
   'Community' => '',
-  'Could not connect to An602 API!
+  'Could not connect to an602 API!
 ' => '',
   'Could not connect to licence server!' => '',
   'Could not extract module!' => '',
@@ -47,7 +47,7 @@ The license was successfully removed!
   'Download of module failed!' => '',
   'Edit licence' => '',
   'Featured' => '',
-  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => '',
+  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => '',
   'Install' => '',
   'Installed' => '',
   'Installing module...' => '',
@@ -88,7 +88,7 @@ The license was successfully removed!
   'Save and update' => '',
   'Stop updating' => '',
   'Tags' => '',
-  'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => '',
+  'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => '',
   'Third-party' => '',
   'Third-party Modules are not covered by Professional Edition agreements.' => '',
   'Third-party disclaimer' => '',
@@ -97,5 +97,5 @@ The license was successfully removed!
   'Update all' => '',
   'Upgrade to Professional Edition' => '',
   'Version:' => '',
-  'Your An602 installation is up to date!' => '',
+  'Your an602 installation is up to date!' => '',
 );

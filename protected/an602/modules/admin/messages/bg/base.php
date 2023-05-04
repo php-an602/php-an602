@@ -25,7 +25,7 @@ return array (
   'Cronjobs' => 'Cronjobs (периодични фонови задачи)',
   'Deactivate' => 'Деактивиране',
   'Default' => 'По подразбиране',
-  'Default group for administrators of this An602 Installation' => '',
+  'Default group for administrators of this an602 Installation' => '',
   'Default group for all newly registered users of the network' => '',
   'Delete all' => 'Изтриване на всички',
   'Delete selected rows' => 'Изтриване на избраните редове',

@@ -5,10 +5,10 @@ namespace tests\codeception\unit\models;
 use an602\modules\user\models\Group;
 use an602\modules\user\models\GroupUser;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use yii\db\ActiveQuery;
 
-class GroupUserTest extends An602DbTestCase
+class GroupUserTest extends an602DbTestCase
 {
     public function testReturnTableName()
     {

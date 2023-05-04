@@ -23,7 +23,7 @@ return [
     'Cronjobs' => 'Χρονοπρογρ/στής εργασιών',
     'Deactivate' => 'Απενεργοποίηση',
     'Default' => 'Προκαθορισμένο',
-    'Default group for administrators of this An602 Installation' => 'Προεπιλεγμένη ομάδα για διαχειριστές αυτής της εγκατάστασης An602',
+    'Default group for administrators of this an602 Installation' => 'Προεπιλεγμένη ομάδα για διαχειριστές αυτής της εγκατάστασης an602',
     'Default group for all newly registered users of the network' => 'Προεπιλεγμένη ομάδα για όλους τους νέους εγγεγραμμένους χρήστες του δικτύου',
     'Delete all' => 'Διαγραφή Όλων',
     'Delete selected rows' => 'Διαγραφή επιλεγμένων σειρών',

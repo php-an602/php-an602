@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2016 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2016 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\installer\controllers;
@@ -91,7 +91,7 @@ class ConfigController extends Controller
     {
 
         if (Yii::$app->settings->get('name') == "") {
-            Yii::$app->settings->set('name', "An602");
+            Yii::$app->settings->set('name', "an602");
         }
 
         \an602\modules\installer\libs\InitialData::bootstrap();
@@ -460,7 +460,7 @@ class ConfigController extends Controller
 
             $form->models['User']->status = User::STATUS_ENABLED;
             $form->models['User']->language = '';
-            $form->models['User']->tagsField = ['Administration', 'Support', 'An602'];
+            $form->models['User']->tagsField = ['Administration', 'Support', 'an602'];
             $form->models['User']->save();
 
             $form->models['Profile']->user_id = $form->models['User']->id;
@@ -502,7 +502,7 @@ class ConfigController extends Controller
 
             // Add Some Post to the Space
             $post = new \an602\modules\post\models\Post();
-            $post->message = Yii::t("InstallerModule.base", "Yay! I've just installed An602 :sunglasses:");
+            $post->message = Yii::t("InstallerModule.base", "Yay! I've just installed an602 :sunglasses:");
             $post->content->container = $space;
             $post->content->visibility = \an602\modules\content\models\Content::VISIBILITY_PUBLIC;
             $post->save();

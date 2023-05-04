@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2020 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2020 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\installer\libs;
@@ -19,7 +19,7 @@ class EnvironmentChecker
 {
 
     /**
-     * Performs some essential tests on Humhub installations that are not yet fully installed.
+     * Performs some essential tests on an602 installations that are not yet fully installed.
      */
     public static function preInstallChecks()
     {

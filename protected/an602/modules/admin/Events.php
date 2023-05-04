@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\admin;
@@ -14,7 +14,7 @@ use an602\modules\user\events\UserEvent;
 use Yii;
 
 /**
- * Admin Module provides the administrative backend for An602 installations.
+ * Admin Module provides the administrative backend for an602 installations.
  *
  * @since 0.5
  */

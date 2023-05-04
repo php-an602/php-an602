@@ -27,7 +27,7 @@ The license was successfully removed!
 
 ' => '--- {moduleId} modul bekapcsolása ---',
   '<strong>Activate</strong> your Professional Edition' => '<strong>Aktiválja</strong> a Professional Edition-t',
-  'A new update is available (An602 %version%)!' => 'Új frissítés érhető el (An602 %version%)!',
+  'A new update is available (an602 %version%)!' => 'Új frissítés érhető el (an602 %version%)!',
   'Add Licence Key' => 'Licenckulcs hozzáadása',
   'Add purchased module by licence key' => 'Megvásárolt modul hozzáadása termékkulcs megadásával',
   'All' => 'Minden',
@@ -38,8 +38,8 @@ The license was successfully removed!
   'Categories' => 'Kategóriák',
   'Changelog' => 'Változási napló',
   'Community' => 'Közösség',
-  'Could not connect to An602 API!
-' => 'Nem tudott csatlakozni a An602 API-hoz!',
+  'Could not connect to an602 API!
+' => 'Nem tudott csatlakozni a an602 API-hoz!',
   'Could not connect to licence server!' => 'Nem sikerült csatlakozni a licenckiszolgálóhoz!',
   'Could not extract module!' => 'Modul kibontása sikertelen!',
   'Could not remove old module path!' => 'Nem sikerült eltávolítani a régi modul elérési útját!',
@@ -47,7 +47,7 @@ The license was successfully removed!
   'Download of module failed!' => 'Modul letöltése sikertelen!',
   'Edit licence' => 'Licenc szerkesztése',
   'Featured' => 'Kiemelt',
-  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.' => 'Ha ezt a modult kiegészítőleg <strong>"közösségként"</strong> jelölik, akkor a An602 projekt csapata nem teszteli és nem ellenőrzi.',
+  'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.' => 'Ha ezt a modult kiegészítőleg <strong>"közösségként"</strong> jelölik, akkor a an602 projekt csapata nem teszteli és nem ellenőrzi.',
   'Install' => 'Telepítés',
   'Installed' => 'Telepítve',
   'Installing module...' => 'Modul telepítése...',
@@ -88,7 +88,7 @@ The license was successfully removed!
   'Save and update' => 'Mentés és frissítés',
   'Stop updating' => 'Frissítés leállítása',
   'Tags' => 'Címkék',
-  'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'A An602 projekt nem garantálja ennek a modulnak a funkcionalitását, minőségét vagy folyamatos fejlesztését.',
+  'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.' => 'A an602 projekt nem garantálja ennek a modulnak a funkcionalitását, minőségét vagy folyamatos fejlesztését.',
   'Third-party' => 'Harmadik féltől származó',
   'Third-party Modules are not covered by Professional Edition agreements.' => 'A harmadik fél által gyártott modulokra nem vonatkoznak a Professional Edition megállapodások.',
   'Third-party disclaimer' => 'Harmadik féltől származó felelősségnyilatkozat',
@@ -97,5 +97,5 @@ The license was successfully removed!
   'Update all' => 'Összes frissítése',
   'Upgrade to Professional Edition' => 'Frissítés Professional változatra',
   'Version:' => 'Verzió:',
-  'Your An602 installation is up to date!' => 'A An602 naprakész!',
+  'Your an602 installation is up to date!' => 'A an602 naprakész!',
 );

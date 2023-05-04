@@ -3,9 +3,9 @@
 namespace tests\codeception\unit\models;
 
 use an602\modules\user\models\ProfileFieldCategory;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class ProfileFieldCategoryModelTest extends An602DbTestCase
+class ProfileFieldCategoryModelTest extends an602DbTestCase
 {
     public function testReturnTableName()
     {

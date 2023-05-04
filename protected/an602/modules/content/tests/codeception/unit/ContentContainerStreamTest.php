@@ -4,14 +4,14 @@ namespace tests\codeception\unit\modules\content;
 
 use an602\modules\stream\models\filters\DefaultStreamFilter;
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use an602\modules\post\models\Post;
 
 use an602\modules\space\models\Space;
 use an602\modules\content\models\Content;
 use an602\modules\stream\actions\ContentContainerStream;
 
-class ContentContainerStreamTest extends An602DbTestCase
+class ContentContainerStreamTest extends an602DbTestCase
 {
 
     /**

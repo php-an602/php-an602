@@ -21,7 +21,7 @@ return [
     'Notify from {appName}. You were added to the group.' => 'إخطار من {appName}. تمت إضافتك إلى المجموعة.',
     'Notify from {appName}. You were removed from the group.' => 'إخطار من {appName}. تمت إزالتك من المجموعة.',
     'Receive Notifications for administrative events like available updates.' => 'تلقي إخطارات الأحداث الإدارية مثل التحديثات المتاحة.',
-    'There is a new An602 Version ({version}) available.' => 'يتوفر إصدار An602 ({version}) جديد.',
+    'There is a new an602 Version ({version}) available.' => 'يتوفر إصدار an602 ({version}) جديد.',
     '{displayName} added you to group {groupName}' => 'أضافك {displayName} إلى المجموعة {groupName}',
     '{displayName} removed you from group {groupName}' => 'أزالك {displayName} من المجموعة {groupName}',
 ];

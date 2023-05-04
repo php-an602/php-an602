@@ -5,11 +5,11 @@ namespace an602\modules\notification\tests\codeception\unit\rendering;
 use an602\modules\post\models\Post;
 use an602\modules\user\models\User;
 use Yii;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Codeception\Specify;
 use an602\modules\notification\targets\WebTarget;
 
-class WebTargetRenderTest extends An602DbTestCase
+class WebTargetRenderTest extends an602DbTestCase
 {
 
     use Specify;

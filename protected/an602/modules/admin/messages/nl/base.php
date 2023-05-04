@@ -25,7 +25,7 @@ return array (
   'Cronjobs' => 'Cronjobs',
   'Deactivate' => 'Deactiveren',
   'Default' => 'Standaard',
-  'Default group for administrators of this An602 Installation' => 'Standaardgroep voor beheerders van deze An602-installatie',
+  'Default group for administrators of this an602 Installation' => 'Standaardgroep voor beheerders van deze an602-installatie',
   'Default group for all newly registered users of the network' => 'Standaardgroep voor alle nieuw geregistreerde gebruikers van het netwerk',
   'Delete all' => 'Verwijder alles',
   'Delete selected rows' => 'Verwijder de geselecteerde rijen',

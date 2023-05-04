@@ -113,7 +113,7 @@ class MentioningExtension extends RichTextLinkExtension
             }
         }
 
-        // Compatibility with An602 < 1.8
+        // Compatibility with an602 < 1.8
         $result['mentioning'] = $result[$this->key];
 
         return $text;

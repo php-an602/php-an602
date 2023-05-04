@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 use an602\libs\Html;
@@ -22,7 +22,7 @@ use an602\libs\Html;
             <?= Html::a('Rebuild search index', ['/admin/information/database', 'rebuildSearch' => 1], ['class' => 'btn btn-primary pull-right', 'data-method' => 'post', 'data-ui-loader' => '']); ?>
         <?php endif; ?>
 
-        <?= Yii::t('AdminModule.information', 'The current main An602 database name is ') ?>
+        <?= Yii::t('AdminModule.information', 'The current main an602 database name is ') ?>
         <i><b><?= Html::encode($databaseName) ?></b></i>
     </p>
 </div>

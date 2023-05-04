@@ -1,12 +1,14 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2016 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2016 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\content\models;
+
+use an602\components\SettingActiveRecord;
 
 /**
  * This is the model class for table "contentcontainer_setting".
@@ -19,8 +21,14 @@ namespace an602\modules\content\models;
  * @property ContentContainer $contentcontainer
  * @since 1.1
  */
-class ContentContainerSetting extends \yii\db\ActiveRecord
+class ContentContainerSetting extends SettingActiveRecord
 {
+
+    /** @inheritdoc */
+    public const CACHE_KEY_FORMAT = 'settings-%s-%d';
+
+    /** @inheritdoc */
+    public const CACHE_KEY_FIELDS = ['module_id', 'contentcontainer_id'];
 
     /**
      * @inheritdoc

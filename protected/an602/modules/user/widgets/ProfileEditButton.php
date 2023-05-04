@@ -3,8 +3,8 @@
 namespace an602\modules\user\widgets;
 
 /**
- * An602
- * Copyright © 2014 The An602 Project
+ * an602
+ * Copyright © 2014 The an602 Project
  *
  * The texts of the GNU Affero General Public License with an additional
  * permission and of our proprietary license can be found at and

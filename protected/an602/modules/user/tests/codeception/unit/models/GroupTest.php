@@ -5,11 +5,11 @@ namespace tests\codeception\unit\models;
 use an602\modules\space\models\Space;
 use an602\modules\user\models\Group;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 use yii\db\ActiveQuery;
 
-class GroupTest extends An602DbTestCase
+class GroupTest extends an602DbTestCase
 {
     public function testReturnTableName()
     {
@@ -73,7 +73,10 @@ class GroupTest extends An602DbTestCase
     public function testReturnAdminGroupId()
     {
         $group = Group::findOne(['name' => 'Administrator']);
-        static::assertEquals($group->id, Group::getAdminGroupId());
+        // check for the uncached value
+        static::assertSame($group->id, Group::getAdminGroupId());
+        // now check again for the cached value
+        static::assertSame($group->id, Group::getAdminGroupId());
     }
 
     public function testCheckIfGroupHasManager()

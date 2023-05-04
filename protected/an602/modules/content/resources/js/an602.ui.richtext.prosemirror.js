@@ -1,7 +1,7 @@
 /*
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  * @since 1.8
  */
 an602.module('ui.richtext.prosemirror', function(module, require, $) {
@@ -26,7 +26,7 @@ an602.module('ui.richtext.prosemirror', function(module, require, $) {
                 'data-ui-markdown': true,
             },
             mention: {
-                provider: new An602MentionProvider(module.config.mention)
+                provider: new an602MentionProvider(module.config.mention)
             },
             link: {
               validate: module.config.validate
@@ -177,13 +177,13 @@ an602.module('ui.richtext.prosemirror', function(module, require, $) {
         document.execCommand('enableInlineTableEditing', false, 'false');
     };
 
-    An602MentionProvider = function(options) {
+    an602MentionProvider = function(options) {
         MentionProvider.call(this, options);
     };
 
-    object.inherits(An602MentionProvider, MentionProvider);
+    object.inherits(an602MentionProvider, MentionProvider);
 
-    An602MentionProvider.prototype.find = function(query, node) {
+    an602MentionProvider.prototype.find = function(query, node) {
         if(this.xhr) {
             this.xhr.abort();
         }

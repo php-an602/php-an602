@@ -54,7 +54,7 @@ an602.module('ui.view', function (module, require, $) {
         prevSwipe = false;
         $('body').removeClass('modal-open');
 
-        if(isSmall() || isMedium() && module.config.useDefaultSwipe) {
+        if(isSmall() || isMedium()) {
             setTimeout(initMobileSidebar, 50);
         }
 

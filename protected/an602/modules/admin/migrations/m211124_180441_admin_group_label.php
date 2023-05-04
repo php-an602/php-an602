@@ -13,13 +13,13 @@ class m211124_180441_admin_group_label extends Migration
     public function safeUp()
     {
         Yii::t('AdminModule.base', 'Administrators');
-        Yii::t('AdminModule.base', 'Default group for administrators of this An602 Installation');
+        Yii::t('AdminModule.base', 'Default group for administrators of this an602 Installation');
         Yii::t('AdminModule.base', 'Users');
         Yii::t('AdminModule.base', 'Default group for all newly registered users of the network');
 
         $this->update(
             'group',
-            ['name' => 'Administrators', 'description' => 'Default group for administrators of this An602 Installation'],
+            ['name' => 'Administrators', 'description' => 'Default group for administrators of this an602 Installation'],
             ['is_admin_group' => 1, 'name' => 'Administrator']
         );
 

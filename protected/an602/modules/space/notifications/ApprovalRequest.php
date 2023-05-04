@@ -1,14 +1,15 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2016 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2016 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\space\notifications;
 
 use an602\modules\notification\components\BaseNotification;
+use an602\modules\space\models\Membership;
 use Yii;
 use yii\bootstrap\Html;
 use yii\helpers\ArrayHelper;
@@ -76,6 +77,18 @@ class ApprovalRequest extends BaseNotification
     public function category()
     {
         return new SpaceMemberNotificationCategory;
+    }
+
+    /**
+     * @inerhitdoc
+     */
+    public function isValid()
+    {
+        return Membership::find()->where([
+            'user_id' => $this->originator->id,
+            'space_id' => $this->source->id,
+            'status' => Membership::STATUS_APPLICANT,
+        ])->exists();
     }
 
     /**

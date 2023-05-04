@@ -1,15 +1,15 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace\components;
 
 use an602\components\ModuleEvent;
-use an602\modules\admin\libs\An602API;
+use an602\modules\admin\libs\an602API;
 use an602\modules\marketplace\models\Module as ModelModule;
 use an602\modules\marketplace\Module;
 use Yii;
@@ -128,7 +128,7 @@ class OnlineModuleManager extends Component
             return true;
         }
 
-        $httpClient = new An602ApiClient();
+        $httpClient = new an602ApiClient();
         try {
             $fp = fopen($fileName, "w");
             $httpClient->get($url)->addOptions(['timeout' => 300])->setOutputFile($fp)->send();
@@ -204,7 +204,7 @@ class OnlineModuleManager extends Component
 
         $this->_modules = Yii::$app->cache->get('onlineModuleManager_modules');
         if ($this->_modules === null || !is_array($this->_modules)) {
-            $this->_modules = An602API::request('v1/modules/list', [
+            $this->_modules = an602API::request('v1/modules/list', [
                 'includeBetaVersions' => (boolean)$module->settings->get('includeBetaUpdates')
             ]);
 
@@ -223,7 +223,7 @@ class OnlineModuleManager extends Component
     {
         return Yii::$app->cache->getOrSet('marketplace-categories', function () {
 
-            $categories = An602API::request('v1/modules/list-categories');
+            $categories = an602API::request('v1/modules/list-categories');
 
             $names = [];
             $names[0] = 'All categories (' . count($this->_modules) . ')';
@@ -280,7 +280,7 @@ class OnlineModuleManager extends Component
             return [];
         }
 
-        return An602API::request('v1/modules/info', [
+        return an602API::request('v1/modules/info', [
             'id' => $moduleId, 'includeBetaVersions' => (boolean)$module->settings->get('includeBetaUpdates')
         ]);
     }

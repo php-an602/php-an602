@@ -9,7 +9,7 @@
         <div class="modal-body">
             <p>
                 <?= Yii::t('MarketplaceModule.base', 'This Module was developed by a third-party.'); ?>
-                <?= Yii::t('MarketplaceModule.base', 'The An602 project does not guarantee the functionality, quality or the continuous development of this Module.'); ?>
+                <?= Yii::t('MarketplaceModule.base', 'The an602 project does not guarantee the functionality, quality or the continuous development of this Module.'); ?>
             </p>
 
             <p>
@@ -17,7 +17,7 @@
             </p>
 
             <p>
-                <?= Yii::t('MarketplaceModule.base', 'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the An602 project team.'); ?>
+                <?= Yii::t('MarketplaceModule.base', 'If this Module is additionally marked as <strong>"Community"</strong> it is neither tested nor monitored by the an602 project team.'); ?>
             </p>
         </div>
         <div class="modal-footer">

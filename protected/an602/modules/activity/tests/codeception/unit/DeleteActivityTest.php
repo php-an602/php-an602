@@ -5,9 +5,9 @@ namespace an602\modules\activity\tests\codeception\unit;
 use an602\modules\activity\models\Activity;
 use an602\modules\activity\tests\codeception\activities\TestActivity;
 use an602\modules\post\models\Post;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
-class DeleteActivityTest extends An602DbTestCase
+class DeleteActivityTest extends an602DbTestCase
 {
     public function testDeleteRecord()
     {

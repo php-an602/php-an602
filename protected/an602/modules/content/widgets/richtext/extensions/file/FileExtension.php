@@ -84,7 +84,7 @@ class FileExtension extends RichTextLinkExtension
             return Yii::t('ContentModule.richtexteditor', '[Invalid file]');
         });
 
-        // Compatibility with An602 < 1.8
+        // Compatibility with an602 < 1.8
         $result['files'] = $result[$this->key];
 
         return $text;

@@ -7,10 +7,10 @@ use an602\modules\user\models\ProfileField;
 use an602\modules\user\models\ProfileFieldCategory;
 use an602\modules\user\models\User;
 use an602\modules\user\models\UserFilter;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 
-class UserFilterTest extends An602DbTestCase
+class UserFilterTest extends an602DbTestCase
 {
     public function testReturnInstanceForUser()
     {

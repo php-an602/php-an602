@@ -25,7 +25,7 @@ return array (
   'Cronjobs' => 'Tareas programadas',
   'Deactivate' => 'deactivar',
   'Default' => 'Defecto',
-  'Default group for administrators of this An602 Installation' => 'Grupo por defecto de los administradores en esta instalación de An602',
+  'Default group for administrators of this an602 Installation' => 'Grupo por defecto de los administradores en esta instalación de an602',
   'Default group for all newly registered users of the network' => 'Grupo por defecto para todos los nuevos usuarios de la red',
   'Delete all' => 'Eliminarlas todas',
   'Delete selected rows' => 'Eliminar las filas seleccionadas',

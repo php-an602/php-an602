@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2017 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2017 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  *
  */
 
@@ -17,10 +17,10 @@ use an602\modules\content\widgets\richtext\RichText;
 use an602\modules\file\models\File;
 use an602\modules\post\models\Post;
 use an602\modules\user\models\User;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
 
-class RichTextShortTextConverterTest extends An602DbTestCase
+class RichTextShortTextConverterTest extends an602DbTestCase
 {
     /*
      * Links
@@ -32,7 +32,7 @@ class RichTextShortTextConverterTest extends An602DbTestCase
     public function testConvertLinkToShortText()
     {
         $this->assertConversionResult(
-            'Test [Link](https://www.php-an602.coders.exchange/de)',
+            'Test [Link](https://www.an602.com/de)',
             "Test Link");
     }
 
@@ -69,7 +69,7 @@ class RichTextShortTextConverterTest extends An602DbTestCase
     public function testConvertLinkWithSpecialCharToShortText()
     {
         $this->assertConversionResult(
-            'Test [Link &< Link](https://www.php-an602.coders.exchange/de)',
+            'Test [Link &< Link](https://www.an602.com/de)',
             "Test Link &amp;&lt; Link");
     }
 
@@ -147,7 +147,7 @@ class RichTextShortTextConverterTest extends An602DbTestCase
     public function testConvertImageAsLink()
     {
         $this->assertConversionResult(
-            'Test ![Alt Text](https://www.php-an602.coders.exchange/static/img/logo.png)',
+            'Test ![Alt Text](https://www.an602.com/static/img/logo.png)',
             'Test [Image]');
     }
 
@@ -157,7 +157,7 @@ class RichTextShortTextConverterTest extends An602DbTestCase
     public function testConvertImageToShortText()
     {
         $this->assertConversionResult(
-            'Test ![Alt Text](https://www.php-an602.coders.exchange/static/img/logo.png)',
+            'Test ![Alt Text](https://www.an602.com/static/img/logo.png)',
             'Test [Image]');
     }
 
@@ -167,7 +167,7 @@ class RichTextShortTextConverterTest extends An602DbTestCase
     public function testConvertImageWithSpecialCharToShortText()
     {
         $this->assertConversionResult(
-            'Test ![Alt & < Text](https://www.php-an602.coders.exchange/static/img/logo.png)',
+            'Test ![Alt & < Text](https://www.an602.com/static/img/logo.png)',
             'Test [Image]');
     }
 

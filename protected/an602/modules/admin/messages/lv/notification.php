@@ -19,7 +19,7 @@
 return [
     'Administrative' => 'Administratīvi',
     'Receive Notifications for administrative events like available updates.' => 'Saņemt notifikācijas par administratīviem notikumiem, kā piem. atjauninājumi.',
-    'There is a new An602 Version ({version}) available.' => 'Ir pieejama jauna An602 versija ({version}).',
+    'There is a new an602 Version ({version}) available.' => 'Ir pieejama jauna an602 versija ({version}).',
     'Notify from {appName}. You were added to the group.' => '',
     'Notify from {appName}. You were removed from the group.' => '',
     '{displayName} added you to group {groupName}' => '',

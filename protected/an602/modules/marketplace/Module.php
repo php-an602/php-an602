@@ -1,22 +1,22 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2019 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2019 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace;
 
 use an602\components\Module as BaseModule;
-use an602\modules\marketplace\components\An602ApiClient;
+use an602\modules\marketplace\components\an602ApiClient;
 use an602\modules\marketplace\components\LicenceManager;
 use an602\modules\marketplace\models\Licence;
 use an602\modules\marketplace\components\OnlineModuleManager;
 use Yii;
 
 /**
- * The Marketplace modules contains all the capabilities to interact with the offical An602 marketplace.
+ * The Marketplace modules contains all the capabilities to interact with the offical an602 marketplace.
  * The core functions are the ability to easily install or update modules from the remote module directory.
  *
  * @property-read Licence $licence
@@ -115,14 +115,14 @@ class Module extends BaseModule
     }
 
     /**
-     * Returns the public HUmhub API (Marketplace, Updater & Co)
+     * Returns the public an602 API (Marketplace, Updater & Co)
      *
-     * @return An602ApiClient
+     * @return an602ApiClient
      */
-    public function getAn602Api()
+    public function getan602Api()
     {
         if ($this->_an602Api === null) {
-            $this->_an602Api = new An602ApiClient();
+            $this->_an602Api = new an602ApiClient();
         }
 
         return $this->_an602Api;

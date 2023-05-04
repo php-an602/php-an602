@@ -25,7 +25,7 @@ return array (
   'Cronjobs' => 'Cronjob',
   'Deactivate' => 'Avaktivera',
   'Default' => 'Default',
-  'Default group for administrators of this An602 Installation' => 'Standardgrupp för administratörer av denna An602-installation',
+  'Default group for administrators of this an602 Installation' => 'Standardgrupp för administratörer av denna an602-installation',
   'Default group for all newly registered users of the network' => 'Standardgrupp för alla nyregistrerade användare av Forum',
   'Delete all' => 'Radera allt',
   'Delete selected rows' => 'Ta bort markerade rader',

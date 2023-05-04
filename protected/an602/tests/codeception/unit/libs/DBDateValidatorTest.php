@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2018 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2018 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\tests\codeception\unit\libs;
@@ -10,12 +10,12 @@ namespace an602\tests\codeception\unit\libs;
 
 use Yii;
 use an602\libs\DbDateValidator;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 
 /**
  * Class MimeHelperTest
  */
-class DBDateValidatorTest extends An602DbTestCase
+class DBDateValidatorTest extends an602DbTestCase
 {
     protected $fixtureConfig = ['default'];
 

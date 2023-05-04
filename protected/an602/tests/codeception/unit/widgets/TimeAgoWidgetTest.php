@@ -3,10 +3,10 @@ namespace an602\tests\codeception\unit\models;
 
 use DateTime;
 use an602\widgets\TimeAgo;
-use tests\codeception\_support\An602DbTestCase;
+use tests\codeception\_support\an602DbTestCase;
 use Yii;
 
-class TimeAgoWidgetTest extends An602DbTestCase
+class TimeAgoWidgetTest extends an602DbTestCase
 {
     public function _before()
     {

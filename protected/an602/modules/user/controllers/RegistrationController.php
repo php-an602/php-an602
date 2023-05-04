@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2015 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2015 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\user\controllers;
@@ -31,7 +31,6 @@ use an602\modules\user\authclient\interfaces\ApprovalBypass;
  */
 class RegistrationController extends Controller
 {
-
     /**
      * @inheritdoc
      */
@@ -192,9 +191,10 @@ class RegistrationController extends Controller
     }
 
     /**
+     * Already all registration data gathered
+     *
      * @param \yii\authclient\BaseClient $authClient
      * @param Registration $registration
-     * @return boolean already all registration data gathered
      * @throws Exception
      */
     protected function handleAuthClientRegistration(ClientInterface $authClient, Registration $registration)
@@ -216,7 +216,4 @@ class RegistrationController extends Controller
         $registration->getUser()->setAttributes($attributes, false);
         $registration->getProfile()->setAttributes($attributes, false);
     }
-
 }
-
-?>

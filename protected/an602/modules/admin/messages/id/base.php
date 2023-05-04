@@ -26,7 +26,7 @@ return [
     'Cronjobs' => 'Cronjob',
     'Deactivate' => 'Matikan',
     'Default' => 'Awalan',
-    'Default group for administrators of this An602 Installation' => 'Grup awalan untuk  administrator instalasi An602 ini',
+    'Default group for administrators of this an602 Installation' => 'Grup awalan untuk  administrator instalasi an602 ini',
     'Default group for all newly registered users of the network' => 'Grup awalan untuk semua pengguna baru jaringan ini',
     'Delete all' => 'Hapus semua',
     'Delete selected rows' => 'Hapus baris terpilih',

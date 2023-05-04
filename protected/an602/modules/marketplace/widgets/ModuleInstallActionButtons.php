@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://www.php-an602.coders.exchange/
- * @copyright Copyright (c) 2021 Brandon Maintenance Management, LLC
- * @license https://www.php-an602.coders.exchange/licences
+ * @link https://metamz.network/
+ * @copyright Copyright (c) 2021 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b
+ * @license https://www.metamz.network/licences
  */
 
 namespace an602\modules\marketplace\widgets;
@@ -51,7 +51,7 @@ class ModuleInstallActionButtons extends Widget
 
         if ($this->module->isProOnly() && $licence->type === Licence::LICENCE_TYPE_CE) {
             $html .= Button::primary(Icon::get('info-circle') . '&nbsp;&nbsp;' . Yii::t('MarketplaceModule.base', 'Learn more'))
-                ->link('https://www.php-an602.coders.exchange/en/professional-edition')
+                ->link('https://www.an602.com/en/professional-edition')
                 ->options(['target' => '_blank'])
                 ->sm()
                 ->loader(false);
