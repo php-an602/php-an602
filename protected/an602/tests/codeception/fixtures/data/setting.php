@@ -2,7 +2,7 @@
 
 /*
  * @link      https://www.an602.org/
- * @copyright Copyright (c) 2023 PHP-AN602, The 86it Developers Network, Yii, and H u m H u b GmbH & Co. KG
+ * @copyright Copyright (c) 2023 H u m H u b GmbH & Co. KG, PHP-AN602, The 86it Developers Network, and Yii
  * @license   https://www.an602.com/licences
  */
 
