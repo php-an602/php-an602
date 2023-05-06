@@ -1,7 +1,7 @@
 PHP-AN602 Changelog
 ================
 
-1.14.1 (Unreleased)
+1.15.0 (May 6, 2023)
 -------------------
 - Fix #6251: Emulate execution on `readable()` content 
 - Enh #6252: Implement new method to handle changing of content active record state
