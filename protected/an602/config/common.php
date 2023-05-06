@@ -32,7 +32,7 @@ $config = [
     'sourceLanguage' => 'en',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
-        '@npm' => '@vendor/npm-asset',
+        '@npm' => '@vendor/php-an602/npm-asset',
         '@filestore' => '@webroot/uploads/file',
     ],
     'components' => [
