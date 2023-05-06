@@ -11,7 +11,7 @@
         "wiki": "https://community.metamz.network",
         "source": "https://github.com/php-an602/php-an602"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4",
         "ext-exif": "*",
