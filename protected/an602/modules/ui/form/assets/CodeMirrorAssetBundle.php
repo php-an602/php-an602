@@ -23,7 +23,7 @@ class CodeMirrorAssetBundle extends AssetBundle
     public $defer = true;
 
     public $jsOptions = ['position' => View::POS_HEAD];
-    public $sourcePath = '@vendor/npm-asset/codemirror';
+    public $sourcePath = '@vendor/php-an602/npm-asset/codemirror';
 
     public $js = [
         'lib/codemirror.js',
