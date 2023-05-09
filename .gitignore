@@ -1,5 +1,7 @@
 desktop.ini
 _notes
+pspbrwse.jbf
+
 
 assets/*
 !assets/.gitignore
