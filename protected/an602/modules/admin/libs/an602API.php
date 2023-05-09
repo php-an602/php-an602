@@ -44,6 +44,7 @@ class an602API
             Yii::error('Could not parse an602 API response! ' . $ex->getMessage());
             return [];
         }
+		
     }
 
     /**
@@ -63,7 +64,6 @@ class an602API
 
             Yii::$app->cache->set('latestVersion', $latestVersion);
         }
-
         return $latestVersion;
     }
 
