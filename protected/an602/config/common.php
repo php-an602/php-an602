@@ -247,7 +247,7 @@ $config = [
         'an602' => [
             // Marketplace / New Version Check
             'apiEnabled' => true,
-            'apiUrl' => 'https://api.humhub.com',
+            'apiUrl' => 'https://api.metamz.network',
         ],
         'search' => [
             'zendLucenceDataDir' => '@runtime/searchdb',
