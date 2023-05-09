@@ -52,7 +52,9 @@ class Modules extends Widget
         $this->addGroup('installed', [
             'title' => Yii::t('AdminModule.modules', 'Installed'),
             'modules' => Yii::$app->moduleManager->filterModules($installedModules),
-            'count' => count($installedModules),
+            /* 'count' => count($installedModules), Fixed by Ernest Allen Buffington 05/07/2023 */
+            'count' => is_countable($installedModules) ? count($installedModules) : 0,
+
             'noModulesMessage' => Yii::t('AdminModule.base', 'No modules installed yet. Install some to enhance the functionality!'),
             'sortOrder' => 100,
         ]);
@@ -73,14 +75,21 @@ class Modules extends Widget
         $alwaysVisibleGroup = 'availableUpdates';
         $displaySingleGroup = false;
         $emptyGroupCount = 0;
-        foreach ($this->groups as $groupType => $group) {
+        
+	 if (is_array($this->groups) || is_object($this->groups))
+     {
+		foreach ($this->groups as $groupType => $group) {
             if ($groupType !== $alwaysVisibleGroup && empty($group['modules'])) {
                 $displaySingleGroup = true;
                 $emptyGroupCount++;
             }
         }
-
+	 }
+	 
         $singleGroupPrinted = false;
+
+	 if (is_array($this->groups) || is_object($this->groups))
+     {
         foreach ($this->groups as $groupType => $group) {
             if ($singleGroupPrinted) {
                 continue;
@@ -98,7 +107,9 @@ class Modules extends Widget
             $renderedGroup = $this->render('moduleGroup', $group);
 
             if (isset($group['groupTemplate'])) {
-                $renderedGroup = str_replace('{group}', $renderedGroup, $group['groupTemplate']);
+                /* $renderedGroup = str_replace('{group}', $renderedGroup, $group['groupTemplate']); Fixed by Ernest Allen Buffington 05/07/2023 11:40 AM */
+                $renderedGroup = str_replace('{group}', $renderedGroup, (string) $group['groupTemplate']);
+
             }
 
             $modules .= $renderedGroup;
@@ -106,5 +117,5 @@ class Modules extends Widget
 
         return $modules;
     }
-
+  }
 }
